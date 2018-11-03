@@ -7,6 +7,11 @@
     align-items: center;
 }*/
 
+.root {
+    height: 100%;
+    width: 100%;
+}
+
 .header {
     height: 100px;
     width: 100%;
@@ -54,7 +59,7 @@
     left: 0px;
     height: 100px;
     width: 200px;
-    border-radius: 25px;
+    border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
     background-size: auto;
     background-repeat: no-repeat;
