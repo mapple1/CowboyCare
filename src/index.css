@@ -20,6 +20,7 @@
 }
 
 .BodyBackground {
+    width: 100%;
     background-image: url('backgroundimg.jpg');
     background-size: auto;
     background-repeat: no-repeat;
@@ -56,9 +57,8 @@
 }
 
 .Logo {
-    left: 0px;
     height: 100px;
-    width: 200px;
+    width: 175px;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
     background-size: auto;
