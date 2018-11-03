@@ -58,3 +58,10 @@
     height: 100px;
 }
 
+.Logo {
+    left: 0px;
+    height: 75px;
+    background-image: url('logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
