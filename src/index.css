@@ -1,8 +1,5 @@
 @media (max-width: 767px) {
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-    body {
-        padding-top: 50px;
-    }
 }
 
 /*.wrapper {
@@ -60,7 +57,7 @@
 
 .Logo {
     left: 0px;
-    height: 75px;
+    height: 100px;
     width: 200px;
     background-image: url('logo.png');
     background-size: 100%;
