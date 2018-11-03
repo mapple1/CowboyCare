@@ -1,7 +1,3 @@
-@media (max-width: 800px) {
-    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-}
-
 /*.wrapper {
     width: 100%;
     display: flex;
@@ -30,6 +26,7 @@
     width: 100%;
     height: 865px;
     display: flex;
+    border-radius: 25px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
