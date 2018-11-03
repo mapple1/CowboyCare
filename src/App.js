@@ -15,7 +15,7 @@ export default class App extends Component {
     displayName = App.name
 
     render() {
-        const render;
+        const render = "";
 
         if (this.state.view === "Home") {
             render = <Home />;
