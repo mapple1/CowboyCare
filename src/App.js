@@ -15,22 +15,12 @@ export default class App extends Component {
     displayName = App.name
 
     render() {
-        const rend = <Home />;
-
-        if (this.state.view === "Home") {
-            rend = <Home />;
-            return rend;
-        }
-        else {
-            rend = "Try Again";
-            return rend;
-        }
 
         return (
             <div className="BodyBackground">
                 <div className="header">Header</div>
                 <div className="wrapper">
-                    <div className="Body">{rend}</div>
+                    <div className="Body"><Home /></div>
                 </div>
                 <div className="Footer">Footer</div>
             </div>
