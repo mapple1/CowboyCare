@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index';
+import './index.css';
 
 export default class App extends Component {
     displayName = App.name
