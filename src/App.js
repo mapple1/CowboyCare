@@ -18,13 +18,15 @@ export default class App extends Component {
     render() {
 
         return (
+            <div>
             <div className="BodyBackground">
                 <div className="header"><Head /></div>
                 <div className="wrapper">
                     <div className="Body"><Home /></div>
                 </div>
                 <div className="Footer">Footer</div>
-            </div>
+                </div>
+                </div>
         );
     }
 }
