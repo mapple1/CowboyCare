@@ -20,7 +20,8 @@ export default class App extends Component {
         return (
             <div>
                 <div className="BodyBackground"><Head />
-                <div className="wrapper">
+                    <div className="wrapper">
+                        <div className="margin"/>
                     <div className="Body"><Home /></div>
                 </div>
                 <div className="Footer">Footer</div>
