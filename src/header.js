@@ -7,7 +7,7 @@ export default class Header extends Component {
     render() {
 
         return (
-            <div>
+            <div className="header">
                 <div className="Logo" /> <a className="home">Home</a>
             </div>
             );
