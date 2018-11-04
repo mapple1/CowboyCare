@@ -166,6 +166,8 @@
     .menuItem .Absolute-Center {
         height: 50px;
         border-radius: 10px;
+        border-radius: 10px;
+        border: 2px groove black;
         display: flex;
         background-color: saddlebrown;
         align-items: center;
@@ -175,7 +177,6 @@
     .menuItem .Absolute-Center .anchor {
         float: none;
         color: black;
-        padding: 12px 16px;
         text-decoration: none;
         display: block;
         text-align: center;
