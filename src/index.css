@@ -67,16 +67,22 @@ body {
 
 .anchor {
     margin: auto;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     vertical-align: middle;
 }
 
 .Absolute-Center {
     height: 50px;
+    background-color: goldenrod;
+    border: 2px groove black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Absolute-Center:hover {
+    background-color: saddlebrown;
 }
 
 .home {
