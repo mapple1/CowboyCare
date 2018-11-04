@@ -39,11 +39,11 @@ export default class Header extends Component {
                         </NavItem>
                         <div className="home">
                             <div className="Absolute-Center">
-                        <NavDropDown eventKey={4} title="About Us" href="#">
+                                <NavDropdown eventKey={4} title="About Us" href="#">
                             <menuitem eventKey={4.1}>Our Story</menuitem>
                             <menuitem eventKey={4.2}>Our Care Specialists</menuitem>
                             <menuitem eventKey={4.3}>Something Else</menuitem>
-                        </NavDropDown>
+                                </NavDropdown>
                         </div>
                         </div>
                             <NavItem eventKey={3} href="#">
