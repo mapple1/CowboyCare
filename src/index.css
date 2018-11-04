@@ -28,13 +28,13 @@
     }
 
     .header {
-        left: 50%;
+        left: 25%;
         height: 100%;
         width: 60%;
         position: absolute;
         overflow: hidden;
         align-content: center;
-        margin-left: auto;
+        margin-left: 50%;
         margin-right: auto;
     }
 
@@ -59,7 +59,6 @@
     .Body {
         height: 100%;
         width: 60%;
-        margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
         background-color: white;
