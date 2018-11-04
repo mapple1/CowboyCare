@@ -8,7 +8,7 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <div className="Logo" /> <div className="home"><a className="anchor">Home</a></div>
+                <div className="Logo" /> <div className="home"><div className="Absolute-Center"><a href="#" className="anchor">Home</a></div></div>
             </div>
             );
     }
