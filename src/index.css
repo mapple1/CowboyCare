@@ -81,6 +81,7 @@
     position: absolute;
     border-top: 2px groove black;
     overflow: hidden;
+    background-color: transparent;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
