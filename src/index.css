@@ -103,7 +103,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    width: auto;
+    width: 100px;
 }
 
 .freq {
@@ -119,7 +119,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    width: auto;
+    width: 150px;
 }
 
         .freq:hover {
