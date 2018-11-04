@@ -48,7 +48,7 @@
 
 .horse {
     height: 300px;
-    width: auto;
+    width: 600px;
     background-image: url('horse.jpg');
     background-size: auto;
     background-repeat: no-repeat;
