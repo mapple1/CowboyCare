@@ -25,6 +25,7 @@ body {
 .header {
     height: 100px;
     width: 100%;
+    position: absolute;
     overflow: hidden;
 }
 
@@ -71,9 +72,10 @@ body {
 
 .home {
     display: table;
-    position: absolute;
+    position: relative;
     margin: auto;
     text-align: center;
+    float: right;
     width: 100px;
 }
 
@@ -85,6 +87,7 @@ body {
     height: 100px;
     width: 170px;
     float: left;
+    position: relative;
     display: inline-block;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
