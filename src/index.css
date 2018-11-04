@@ -182,7 +182,7 @@
         display: block;
         text-align: center;
     }
-        .menuItem .anchor:hover {
+        .menuItem .Absolute-Center:hover {
             background-color: goldenrod;
         }
 
