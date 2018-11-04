@@ -23,9 +23,9 @@ export default class Header extends Component {
                             <NavItem eventKey={3} href="#">Frequently Asked Questions
                         </NavItem>
                             <NavDropdown eventKey={4} title="About Us">
-                            <menuitem eventKey={4.1}>Our Story</menuitem>
-                            <menuitem eventKey={4.2}>Our Care Specialists</menuitem>
-                            <menuitem eventKey={4.3}>Something Else</menuitem>
+                            <MenuItem eventKey={4.1}>Our Story</MenuItem>
+                            <MenuItem eventKey={4.2}>Our Care Specialists</MenuItem>
+                            <MenuItem eventKey={4.3}>Something Else</MenuItem>
                         </NavDropdown>
                         <NavItem eventKey={5} href="#">Contact Us
                         </NavItem>
