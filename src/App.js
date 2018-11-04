@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Head from './header';
+import Footer from './Footer';
 import './index.css';
 
 export default class App extends Component {
@@ -24,7 +25,7 @@ export default class App extends Component {
                         <div className="margin"/>
                         <div className="Body"><Home /></div>
                 </div>
-                <div className="Footer">Footer</div>
+                <Footer />
                 </div>
                 </div>
         );
