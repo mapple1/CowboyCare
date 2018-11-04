@@ -19,14 +19,12 @@ export default class App extends Component {
     render() {
 
         return (
-            <div>
                 <div className="BodyBackground"><Head />
                     <div className="wrapper">
                         <div className="margin"/>
                         <div className="Body"><Home /></div>
-                        <Footer />
                     </div>
-                </div>
+                        <Footer />
                 </div>
         );
     }
