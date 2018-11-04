@@ -68,7 +68,10 @@ body {
 .home {
     height: 50px;
     width: 75px;
+    left: 50%;
+    top: 50%;
     text-decoration: none;
+    text-align: center;
     background-color:saddlebrown;
     display: inline-block;
 }
