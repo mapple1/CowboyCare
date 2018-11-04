@@ -14,10 +14,8 @@ export default class Header extends Component {
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
-                        <Navbar.Toggle />
                     </Navbar.Header>
-                    <Navbar.Collapse>
-                        <Nav bsStyle="tabs" activeKey="1">
+                    <Nav style={{ display: "flex", flexDirection: "row" }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1}>
                     <div className="home">
                     <div className="Absolute-Center">
@@ -56,7 +54,6 @@ export default class Header extends Component {
                                 </div>
                         </NavItem>
                         </Nav>
-                        </Navbar.Collapse>
             </Navbar>
                         </div>
             );
