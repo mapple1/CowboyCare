@@ -56,7 +56,7 @@
     .Body {
         height: 100%;
         width: 60%;
-        position: relative;
+        position: fixed;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
