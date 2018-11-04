@@ -84,6 +84,7 @@ body {
 .Logo {
     height: 100px;
     width: 170px;
+    float: left;
     display: inline-block;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
