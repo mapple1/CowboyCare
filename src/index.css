@@ -33,7 +33,7 @@
         width: 60%;
         position: absolute;
         overflow: hidden;
-        overflow-x: auto;
+        overflow-x: visible;
         align-content: center;
         margin-left: 50%;
         margin-right: auto;
