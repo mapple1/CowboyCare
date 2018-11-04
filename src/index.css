@@ -67,6 +67,7 @@ body {
 
 .anchor {
     text-decoration: none;
+    margin-top: 50%;
 }
 
 .home {
@@ -74,7 +75,7 @@ body {
     position: relative;
     margin: auto;
     bottom: 0;
-    margin-top: 50px;
+    margin-top: 50%;
     text-align: center;
     vertical-align: middle;
     background-color: saddlebrown;
