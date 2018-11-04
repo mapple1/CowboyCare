@@ -162,6 +162,20 @@
     width: 100px;
 }
 
+    .dropdown .Absolute-Center {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown:hover .Absolute-Center{
+        background-color: goldenrod;
+    }
+
 .menuItem {
     display: none;
     position: absolute;
@@ -170,7 +184,7 @@
     z-index: 1;
 }
 
-    .menuItem a {
+    .menuItem .anchor {
         float: none;
         color: black;
         padding: 12px 16px;
