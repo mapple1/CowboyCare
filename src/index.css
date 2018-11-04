@@ -28,8 +28,9 @@
     }
 
     .header {
+        height: 100%;
         width: 60%;
-        position: absolute;
+        position: relative;
         overflow: hidden;
         align-content: center;
         margin-left: auto;
