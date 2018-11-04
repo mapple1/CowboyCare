@@ -8,7 +8,7 @@ export default class Home extends Component {
 
         return (
             <div>
-                Add some text here! 
+                <div className="horse" />
             </div>
             );
     }
