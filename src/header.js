@@ -5,6 +5,11 @@ import './index.css';
 
 export default class Header extends Component {
 
+    handleSelect(eventKey, event) {
+        event.preventDefault();
+        alert(`selected ${eventKey}`);
+    }
+
     render() {
 
         return (
@@ -15,7 +20,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                         </Navbar.Brand>
                     </Navbar.Header>
-                    <Nav justified style={{ display: "flex", flexDirection: "row", listStyle: "none", padding: "0", height: "100px", margin: "none", marginBlockStart: "0", marginBlockEnd: "0",  border: "none" }} bsStyle="tabs" activeKey="1">
+                    <Nav onSelect={k => this.handleSelect(k)} justified style={{ display: "flex", flexDirection: "row", listStyle: "none", padding: "0", height: "100px", margin: "none", marginBlockStart: "0", marginBlockEnd: "0",  border: "none" }} bsStyle="tabs" activeKey="1">
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey = { 1} >
@@ -47,7 +52,7 @@ export default class Header extends Component {
                             <div className="Absolute-Center">
                                 <NavDropdown style={{
                                     marginBlockStart: "0", marginBlockEnd: "0"
-                                }} eventKey={4} className="anchor" title="About Us">
+                                }} eventKey={4} className="anchor" title="About Us" id="nav-dropdown">
                                     <MenuItem eventKey={4.1}>Our Story</MenuItem>
                                     <MenuItem eventKey={4.2}>Our Care Specialists</MenuItem>
                                     <MenuItem eventKey={4.3}>Something Else</MenuItem>
