@@ -70,13 +70,11 @@ body {
 }
 
 .home {
-    height: 100px;
-    width: 100px;
-    vertical-align: middle;
-    text-decoration: none;
+    display: table;
+    position: absolute;
+    margin: auto;
     text-align: center;
-    background-color:saddlebrown;
-    display: inline-block;
+    width: 100px;
 }
 
 .home:hover {
@@ -86,7 +84,7 @@ body {
 .Logo {
     height: 100px;
     width: 170px;
-    display: block;
+    display: inline-block;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
     background-size: auto;
