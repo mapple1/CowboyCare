@@ -8,13 +8,13 @@ export default class Header extends Component {
     render() {
 
         return (
-            <div className="header">
             <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
-                    </Navbar.Header>
+                </Navbar.Header>
+                <Navbar.Collapse>
                     <Nav>
                         <NavItem eventKey={1}>
                     <div className="home">
@@ -39,7 +39,7 @@ export default class Header extends Component {
                         </NavItem>
                         <div className="home">
                             <div className="Absolute-Center">
-                                <NavDropdown eventKey={4} title="About Us">
+                            <NavDropdown eventKey={4} title="About Us">
                             <menuitem eventKey={4.1}>Our Story</menuitem>
                             <menuitem eventKey={4.2}>Our Care Specialists</menuitem>
                             <menuitem eventKey={4.3}>Something Else</menuitem>
@@ -54,8 +54,8 @@ export default class Header extends Component {
                                 </div>
                         </NavItem>
                     </Nav>
+                </Navbar.Collapse>
             </Navbar>
-                        </div>
             );
     }
 }
