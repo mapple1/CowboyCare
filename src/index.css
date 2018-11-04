@@ -143,12 +143,23 @@
     }
 
 .dropdown {
-    list-style: none;
+    display: table;
+    position: relative;
+    border-radius: 10px;
+    border: 2px groove black;
     margin: auto;
+    bottom: 0;
+    margin-top: 45px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: saddlebrown;
+    float: left;
+    height: 50px;
+    width: auto;
+    list-style: none;
     font-size: 20px;
     text-decoration: none;
     color: black;
-    vertical-align: middle;
 }
 
 .menuItem {
