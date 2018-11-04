@@ -28,7 +28,7 @@
     }
 
     .header {
-        right: 10%;
+        right: 15%;
         height: 100%;
         width: 75%;
         position: absolute;
@@ -48,7 +48,8 @@
     }
 
 .horse {
-    width: 50%;
+    height: 100%;
+    width: 100%;
     background-image: url('horse.jpg');
     background-size: auto;
     background-repeat: no-repeat;
@@ -145,7 +146,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    min-width: 175px;
+    min-width: 225px;
 }
 
 .freq {
