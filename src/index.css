@@ -83,7 +83,7 @@
     }
 
     .Absolute-Center {
-        height: auto;
+        height: 50px;
         border-radius: 10px;
         display: flex;
         align-items: center;
