@@ -49,13 +49,13 @@ export default class Header extends Component {
                             <div className="Absolute-Center"><a href="#" className="anchor">About Us</a>
                             </div>
                                 </div>
+                                <div className="menuItem">
+                                    <div className="home Absolute-Center" eventKey={4.1}><a href="#" className="anchor">Our Story</a></div>
+                                    <div className="home Absolute-Center" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></div>
+                                    <div className="home Absolute-Center" eventKey={4.3}><a href="#" className="anchor">Something Else</a></div>
+                                </div>
                             </div>
                             </NavItem>
-                            <div className="menuItem">
-                                <div className="home Absolute-Center" eventKey={4.1}><a href="#" className="anchor">Our Story</a></div>
-                                <div className="home Absolute-Center" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></div>
-                                <div className="home Absolute-Center" eventKey={4.3}><a href="#" className="anchor">Something Else</a></div>
-                            </div>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
