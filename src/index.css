@@ -61,10 +61,12 @@ body {
 }
 
 .Footer {
-    width: 100%;
+    width: 60%;
     background-color: saddlebrown;
     overflow: hidden;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .anchor {
@@ -97,6 +99,22 @@ body {
     float: left;
     height: 50px;
     width: 100px;
+}
+
+.freq {
+    display: table;
+    position: relative;
+    border-radius: 10px;
+    border: 2px groove black;
+    margin: auto;
+    bottom: 0;
+    margin-top: 45px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: saddlebrown;
+    float: left;
+    height: 50px;
+    width: 150px;
 }
 
 .home:hover {
