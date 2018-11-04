@@ -42,7 +42,7 @@
         height: 100%;
         width: 100%;
         background-image: url('backgroundimg.jpg');
-        background-size: auto;
+        background-size: 100%;
         background-repeat: no-repeat;
     }
 
