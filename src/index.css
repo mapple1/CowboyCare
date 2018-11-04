@@ -168,5 +168,5 @@
     }
 
 .dropdown:hover .menuItem{
-    display: block;
+    display: inline-block;
 }
