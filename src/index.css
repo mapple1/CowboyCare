@@ -30,7 +30,7 @@
     .header {
         height: 100%;
         width: 60%;
-        position: relative;
+        position: absolute;
         overflow: hidden;
         align-content: center;
         margin-left: auto;
@@ -159,7 +159,16 @@
     z-index: 1;
 }
 
-    .menuItem .anchor {
+    .menuItem .Absolute-Center {
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        background-color: saddlebrown;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menuItem .Absolute-Center .anchor {
         float: none;
         color: black;
         padding: 12px 16px;
@@ -167,7 +176,11 @@
         display: block;
         text-align: center;
     }
+        .menuItem .anchor:hover {
+            background-color: goldenrod;
+        }
 
-.dropdown:hover .menuItem{
-    display: inline-block;
-}
+
+        .dropdown:hover .menuItem {
+            display: inline-block;
+        }
