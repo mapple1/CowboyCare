@@ -141,3 +141,20 @@
         background-size: auto;
         background-repeat: no-repeat;
     }
+
+.dropdown {
+    list-style: none;
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.menuItem {
+    display: none;
+}
+
+.dropdown:hover .menuItem{
+    display: block;
+}
