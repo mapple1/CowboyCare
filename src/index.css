@@ -171,10 +171,12 @@
 }
 
     .menuItem a {
-        font-size: 18px;
-        text-decoration: none;
+        float: none;
         color: black;
-        vertical-align: middle;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
     }
 
 .dropdown:hover .menuItem{
