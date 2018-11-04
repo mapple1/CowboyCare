@@ -19,7 +19,8 @@ export default class Header extends Component {
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={1} >
-                    <div className="home left">
+                            <div className="home left">
+                                <span className="corner-left" />
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Home</a>
                     </div>
@@ -65,9 +66,9 @@ export default class Header extends Component {
                     </div>
                                 </div>
                         </NavItem>
-                        <div className="filler right" />
-                        <span className="corner-left" />
-                        <span className="corner-right" />
+                        <div className="filler right">
+                            <span className="corner-right" />
+                        </div>
                         </Nav>
             </Navbar>
                         </div>
