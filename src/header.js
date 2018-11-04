@@ -14,7 +14,6 @@ export default class Header extends Component {
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
-                        <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                     <Nav justified style={{ display: "flex", flexDirection: "row", listStyle: "none", padding: "0", margin: "none", marginBlockStart: "0", marginBlockEnd: "0",  border: "none" }} bsStyle="tabs" activeKey="1">
