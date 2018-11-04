@@ -8,7 +8,23 @@ export default class Header extends Component {
     render() {
 
         return (
-                <Navbar fluid justified style={{ display: "flex", flexDirection: "row", padding: "0", listStyle: "none", margin: "none", marginBlockStart: "0", marginBlockEnd: "0", border: "none" }} fixedTop collapseOnSelect>
+            <Navbar fluid justified style={{
+                right: "15%",
+                height: "100%",
+                width: "80%",
+                position: "absolute",
+                alignContent: "center",
+                marginLeft: "auto",
+                marginRight: "auto",
+                display: "flex",
+                flexDirection: "row",
+                padding: "0",
+                listStyle: "none",
+                margin: "none",
+                marginBlockStart: "0",
+                marginBlockEnd: "0",
+                border: "none"
+            }} fixedTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
