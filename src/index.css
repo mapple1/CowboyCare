@@ -196,8 +196,7 @@
 
     .menuItem .Absolute-Center {
         height: 50px;
-        border-radius: 10px;
-        border: 2px groove black;
+        border: 1px groove black;
         display: flex;
         background-color: saddlebrown;
         align-items: center;
@@ -224,7 +223,7 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    left: -1px;
+    left: -3px;
     top: -6px;
     border-top: 6px solid transparent;
     border-bottom: 0px solid transparent;
@@ -235,9 +234,14 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    right: -1px;
+    right: -3px;
     top: -6px;
     border-top: 6px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 8px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 0px; /* remove scrollbar space */
+    background: transparent; /* optional: just make scrollbar invisible */
 }
