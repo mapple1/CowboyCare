@@ -8,7 +8,8 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar fluid justified style={{
+            <Navbar fluid style={{
+                fluid: "true",
                 right: "15%",
                 height: "100%",
                 width: "80%",
