@@ -28,9 +28,8 @@
     }
 
     .header {
-        height: 100px;
+        height: auto;
         width: 60%;
-        position: absolute;
         overflow: hidden;
         margin-left: auto;
         margin-right: auto;
