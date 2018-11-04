@@ -219,3 +219,25 @@
         .dropdown:hover .menuItem {
             display: inline-block;
         }
+
+.corner-left {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 8px solid #222222;
+}
+
+.corner-right {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 8px solid #222222;
+}
