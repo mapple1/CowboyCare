@@ -40,6 +40,7 @@
     }
 
     .BodyBackground {
+        height: 100%;
         width: 100%;
         background-image: url('backgroundimg.jpg');
         background-size: auto;
@@ -58,7 +59,7 @@
     }
 
     .margin {
-        height: 100px;
+        height: 75px;
         width: 100%;
     }
 
