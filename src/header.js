@@ -5,6 +5,11 @@ import './index.css';
 
 export default class Header extends Component {
 
+//                                    <div><div className="home">
+//    <div className="Absolute-Center"><a href="#" className="anchor">About Us</a>
+//    </div></div>
+//</div>
+
     render() {
 
         return (
@@ -62,19 +67,17 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <NavItem eventKey={4}>
+                        <NavDropdown eventKey={4} title="About Us" id="basic-nav-dropdown">
                             <div className="dropdown">
-                                <div><div className="home">
-                                    <div className="Absolute-Center"><a href="#" className="anchor">About Us</a>
-                                    </div></div>
-                            </div>
-                                <div className="menuItem">
-                                    <div className="Absolute-Center" eventKey={4.1}><a href="#" className="anchor">Our Story</a></div>
-                                    <div className="Absolute-Center" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></div>
-                                    <div className="Absolute-Center" eventKey={4.3}><a href="#" className="anchor">Something Else</a></div>
+                                <div className="home">
+                                    <div className="Absolute-Center">
+                                            <MenuItem eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
+                                            <MenuItem eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></MenuItem >
+                                        <MenuItem eventKey={4.3}><a href="#" className="anchor">Something Else</a></MenuItem >
+                                    </div>
                                 </div>
                             </div>
-                            </NavItem>
+                        </NavDropdown>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
