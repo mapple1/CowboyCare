@@ -30,6 +30,7 @@
     .header {
         height: 100px;
         width: 60%;
+        position: absolute;
         overflow: hidden;
         margin-left: auto;
         margin-right: auto;
