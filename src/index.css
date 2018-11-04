@@ -137,7 +137,8 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    min-width: 200px;
+    box-shadow: black 
+    min-width: 175px;
 }
 
 .freq {
