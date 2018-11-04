@@ -144,7 +144,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    width: 550px;
+    width: 600px;
 }
 
 .freq {
@@ -200,6 +200,7 @@
         display: flex;
         background-color: saddlebrown;
         align-items: center;
+        width: 100px;
         justify-content: center;
     }
 
