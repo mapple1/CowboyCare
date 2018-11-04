@@ -30,7 +30,9 @@
     .header {
         height: 150px;
         width: 60%;
+        position: relative;
         overflow: hidden;
+        align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -58,6 +60,7 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+        background-color: white;
         text-align: left;
         display: inline-block;
         overflow: hidden;
