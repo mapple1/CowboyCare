@@ -9,7 +9,7 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar justified bsStyle="tabs" style={{ display: "flex", flexDirection: "row", padding: "0", listStyle: "none", height: "100px", border: "none" }} staticTop collapseOnSelect>
+                <Navbar justified bsStyle="tabs" style={{ display: "flex", flexDirection: "row", padding: "0", listStyle: "none", margin: "none", height: "100px", border: "none" }} staticTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
