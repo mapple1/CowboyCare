@@ -74,15 +74,16 @@
         overflow-y: hidden;
     }
 
-    .Footer {
-        width: 60%;
-        position: absolute;
-        background-color: saddlebrown;
-        overflow: hidden;
-        height: 100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.Footer {
+    right: 20%;
+    width: 60%;
+    position: absolute;
+    background-color: saddlebrown;
+    overflow: hidden;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
     .anchor {
         margin: auto;
