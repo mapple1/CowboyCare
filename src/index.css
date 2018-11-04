@@ -144,7 +144,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    width: auto;
+    width: 100%;
 }
 
 .freq {
@@ -196,7 +196,6 @@
 
     .menuItem .Absolute-Center {
         height: 50px;
-        border: 1px groove black;
         display: flex;
         background-color: saddlebrown;
         align-items: center;
