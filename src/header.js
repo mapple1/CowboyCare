@@ -15,7 +15,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                         </Navbar.Brand>
                     </Navbar.Header>
-                    <Nav style={{ display: "flex", flexDirection: "row" }} bsStyle="tabs" activeKey="1">
+                    <Nav style={{ display: "flex", flexDirection: "row", listStyle: "none" }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1}>
                     <div className="home">
                     <div className="Absolute-Center">
