@@ -65,9 +65,13 @@ body {
     height: 100px;
 }
 
+.anchor {
+    text-decoration: none;
+}
+
 .home {
     height: 50px;
-    width: 75px;
+    width: 100px;
     vertical-align: middle;
     text-decoration: none;
     text-align: center;
