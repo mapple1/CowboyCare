@@ -9,7 +9,7 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar staticTop collapseOnSelect>
+                <Navbar pills staticTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
