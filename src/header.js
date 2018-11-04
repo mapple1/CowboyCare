@@ -15,7 +15,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                         </Navbar.Brand>
                     </Navbar.Header>
-                    <Nav tabs>
+                    <Nav pills>
                         <NavItem eventKey={1}>
                     <div className="home">
                     <div className="Absolute-Center">
