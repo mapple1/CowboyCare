@@ -78,7 +78,7 @@
     right: 20%;
     width: 60%;
     position: absolute;
-    background-color: saddlebrown;
+    border-top: 2px groove black;
     overflow: hidden;
     height: 100px;
     margin-left: auto;
