@@ -29,7 +29,7 @@
 
     .header {
         width: 60%;
-        position: relative;
+        position: absolute;
         overflow: hidden;
         align-content: center;
         margin-left: auto;
