@@ -86,7 +86,7 @@ body {
 .Logo {
     height: 100px;
     width: 170px;
-    display: inline-block;
+    display: block;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
     background-size: auto;
