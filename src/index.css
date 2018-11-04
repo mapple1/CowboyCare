@@ -32,7 +32,7 @@
         width: 80%;
         position: absolute;
         overflow: hidden;
-        overflow-x: visible;
+        overflow-x: auto;
         align-content: center;
         margin-left: 50%;
         margin-right: auto;
@@ -144,7 +144,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    min-width: 350px;
+    min-width: 325px;
 }
 
 .freq {
