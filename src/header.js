@@ -9,13 +9,14 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar bsStyle="tabs" inverse collapseOnSelect>
+                <Navbar bsStyle="tabs" staticTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
+                    <Navbar.Collapse>
                     <Nav bsStyle="tabs">
                         <NavItem eventKey={1}>
                     <div className="home">
@@ -54,7 +55,8 @@ export default class Header extends Component {
                     </div>
                                 </div>
                         </NavItem>
-                    </Nav>
+                        </Nav>
+                        </Navbar.Collapse>
             </Navbar>
                         </div>
             );
