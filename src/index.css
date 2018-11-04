@@ -129,6 +129,9 @@
     .home:hover {
         background-color: goldenrod;
     }
+.dropdown:hover {
+    background-color: goldenrod;
+}
 
     .Logo {
         height: 100px;
@@ -154,6 +157,7 @@
     vertical-align: middle;
     background-color: saddlebrown;
     float: left;
+    overflow: hidden;
     height: 50px;
     width: 100px;
 }
