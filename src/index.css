@@ -25,7 +25,6 @@ body {
 .header {
     height: 100px;
     width: 100%;
-    background-color: saddlebrown;
     overflow: hidden;
 }
 
@@ -66,9 +65,23 @@ body {
     height: 100px;
 }
 
+.home {
+    height: 50px;
+    width: 75px;
+    text-decoration: none;
+    background-color:saddlebrown;
+    display: inline-block;
+    float: right;
+}
+
+.home:hover {
+    background-color: goldenrod;
+}
+
 .Logo {
     height: 100px;
     width: 170px;
+    display: inline-block;
     border-radius: 10px 10px 10px 10px;
     background-image: url('logo.png');
     background-size: auto;
