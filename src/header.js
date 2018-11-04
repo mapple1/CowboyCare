@@ -9,13 +9,13 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar pills staticTop collapseOnSelect>
+                <Navbar staticTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
                     </Navbar.Header>
-                    <Nav pills>
+                    <Nav bsStyle="tabs">
                         <NavItem eventKey={1}>
                     <div className="home">
                     <div className="Absolute-Center">
