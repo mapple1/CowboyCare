@@ -9,7 +9,7 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar bsStyle="tabs" staticTop collapseOnSelect>
+                <Navbar bsStyle="tabs" style={{ display: "flex", flexDirection: "row", listStyle: "none" }} staticTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
@@ -37,15 +37,11 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <div className="home">
-                            <div className="Absolute-Center">
                                 <NavDropdown eventKey={4} className="anchor" title="About Us">
                                     <MenuItem eventKey={4.1}>Our Story</MenuItem>
                                     <MenuItem eventKey={4.2}>Our Care Specialists</MenuItem>
                                     <MenuItem eventKey={4.3}>Something Else</MenuItem>
                                 </NavDropdown>
-                        </div>
-                        </div>
                             <NavItem eventKey={5}>
                 <div className="home">
                     <div className="Absolute-Center">
