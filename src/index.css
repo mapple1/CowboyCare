@@ -116,6 +116,9 @@ body {
     height: 50px;
     width: 150px;
 }
+.freq:hover {
+    background-color: goldenrod;
+}
 
 .home:hover {
     background-color: goldenrod;
