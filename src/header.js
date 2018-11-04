@@ -45,13 +45,13 @@ export default class Header extends Component {
                         </NavItem>
                         <div className="home">
                             <div className="Absolute-Center">
-                                <NavDropdown style={{
+                                <NavItem style={{
                                     marginBlockStart: "0", marginBlockEnd: "0"
                                 }} eventKey={4} className="dropdown" title="About Us" id="nav-dropdown">
-                                    <MenuItem className="menuItem" eventKey={4.1}>Our Story</MenuItem>
-                                    <MenuItem className="menuItem" eventKey={4.2}>Our Care Specialists</MenuItem>
-                                    <MenuItem className="menuItem" eventKey={4.3}>Something Else</MenuItem>
-                                </NavDropdown>
+                                    <div className="home Absolute-Center menuItem" eventKey={4.1}><a href="#" className="anchor">Our Story</a></div>
+                                    <div className="home Absolute-Center menuItem" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></div>
+                                    <div className="home Absolute-Center menuItem" eventKey={4.3}><a href="#" className="anchor">Something Else</a></div>
+                                </NavItem>
                             </div>
                         </div>
                         <NavItem style={{
