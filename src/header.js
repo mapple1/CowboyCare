@@ -18,8 +18,8 @@ export default class Header extends Component {
                     <Nav justified style={{ display: "flex", flexDirection: "row", listStyle: "none", padding: "0", margin: "none", marginBlockStart: "0", marginBlockEnd: "0",  border: "none" }} bsStyle="tabs" activeKey="1">
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
-                        }} eventKey = { 1} >
-                    <div className="home">
+                        }} eventKey={1} >
+                    <div className="home left">
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Home</a>
                     </div>
@@ -59,7 +59,7 @@ export default class Header extends Component {
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
-                <div className="home">
+                <div className="home right">
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Contact Us</a>
                     </div>
