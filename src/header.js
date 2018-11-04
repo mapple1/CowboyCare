@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Glyphicon, Nav, Navbar, NavItem } from 'react-bootstrap';
 import './index.css';
 
 
@@ -36,11 +37,15 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
+                        <div className="home">
+                            <div className="Absolute-Center">
                         <NavDropDown eventKey={4} title="About Us" href="#">
                             <menuitem eventKey={4.1}>Our Story</menuitem>
                             <menuitem eventKey={4.2}>Our Care Specialists</menuitem>
                             <menuitem eventKey={4.3}>Something Else</menuitem>
                         </NavDropDown>
+                        </div>
+                        </div>
                             <NavItem eventKey={3} href="#">
                 <div className="home">
                     <div className="Absolute-Center">
