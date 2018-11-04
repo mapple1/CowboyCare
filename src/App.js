@@ -23,7 +23,6 @@ export default class App extends Component {
                     <div className="wrapper">
                         <div className="margin"/>
                         <div className="Body"><Home /></div>
-                        <div className="margin" />
                 </div>
                 <div className="Footer">Footer</div>
                 </div>

@@ -76,6 +76,7 @@
 
     .Footer {
         width: 60%;
+        position: absolute;
         background-color: saddlebrown;
         overflow: hidden;
         height: 100px;
