@@ -11,7 +11,7 @@ export default class Header extends Component {
             <Navbar fluid style={{
                 fluid: "true",
                 right: "15%",
-                height: "100%",
+                height: "25%",
                 width: "80%",
                 position: "absolute",
                 alignContent: "center",
