@@ -43,12 +43,14 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <NavItem eventKey={4} className="dropdown">
+                        <div className="dropdown">
+                        <NavItem eventKey={4}>
                             <div className="home">
                             <div className="Absolute-Center"><a href="#" className="anchor">About Us</a>
                             </div>
                             </div>
-                        </NavItem>
+                            </NavItem>
+                            </div>
                             <div className="menuItem">
                                 <div className="home Absolute-Center" eventKey={4.1}><a href="#" className="anchor">Our Story</a></div>
                                 <div className="home Absolute-Center" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></div>

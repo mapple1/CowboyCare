@@ -76,7 +76,7 @@
 
     .anchor {
         margin: auto;
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: none;
         color: black;
         vertical-align: middle;
@@ -143,10 +143,6 @@
     }
 
 .dropdown {
-    margin: auto;
-    vertical-align: middle;
-    list-style: none;
-    font-size: 15px;
     text-decoration: none;
     color: black;
 }
