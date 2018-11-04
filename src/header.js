@@ -66,11 +66,9 @@ export default class Header extends Component {
                     </div>
                                 </div>
                         </NavItem>
-                        <NavItem>
                         <div className="filler right">
                             <span className="corner-right" />
                             </div>
-                        </NavItem>
                         </Nav>
             </Navbar>
                         </div>
