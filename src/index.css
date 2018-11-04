@@ -50,7 +50,7 @@
     height: 300px;
     width: 600px;
     background-image: url('horse.jpg');
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
