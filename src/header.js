@@ -15,7 +15,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                         </Navbar.Brand>
                     </Navbar.Header>
-                    <Nav style={{ display: "flex", flexDirection: "row", listStyle: "none" }} bsStyle="tabs" activeKey="1">
+                    <Nav style={{ display: "flex", flexDirection: "row", listStyle: "none", height: "100px" }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1}>
                     <div className="home">
                     <div className="Absolute-Center">
@@ -37,11 +37,15 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
+                        <div className="home">
+                            <div className="Absolute-Center">
                                 <NavDropdown eventKey={4} className="anchor" title="About Us">
                                     <MenuItem eventKey={4.1}>Our Story</MenuItem>
                                     <MenuItem eventKey={4.2}>Our Care Specialists</MenuItem>
                                     <MenuItem eventKey={4.3}>Something Else</MenuItem>
                                 </NavDropdown>
+                            </div>
+                        </div>
                             <NavItem eventKey={5}>
                 <div className="home">
                     <div className="Absolute-Center">
