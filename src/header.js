@@ -9,11 +9,12 @@ export default class Header extends Component {
 
         return (
             <div className="header">
-                <Navbar staticTop collapseOnSelect>
+                <Navbar bsStyle="tabs" inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                         </Navbar.Brand>
+                        <Navbar.Toggle />
                     </Navbar.Header>
                     <Nav bsStyle="tabs">
                         <NavItem eventKey={1}>
