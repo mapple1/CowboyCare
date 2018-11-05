@@ -67,8 +67,9 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
+                        <div className="dropdown">
                         <NavDropdown eventKey={4} title="About Us" id="basic-nav-dropdown">
-                            <div className="dropdown">
+                            
                                 <div className="home">
                                     <div className="Absolute-Center">
                                             <MenuItem eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
@@ -76,8 +77,8 @@ export default class Header extends Component {
                                         <MenuItem eventKey={4.3}><a href="#" className="anchor">Something Else</a></MenuItem >
                                     </div>
                                 </div>
-                            </div>
-                        </NavDropdown>
+                            </NavDropdown>
+                        </div>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
