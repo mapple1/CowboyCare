@@ -234,7 +234,7 @@
         background-color: goldenrod;
     }
 
-    .menuItem {
+    /*.menuItem {
         display: none;
         position: relative;
         float: left;
@@ -242,7 +242,7 @@
         background-color:saddlebrown;
         width: 100%;
         z-index: 1;
-    }
+    }*/
 
     .menuItem .Absolute-Center {
         height: 50px;
