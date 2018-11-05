@@ -68,7 +68,6 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <div className="Absolute-Center">
                         <NavDropdown style={{
                             listStyle: "none",
                             fontSize: "15px",
@@ -116,7 +115,6 @@ export default class Header extends Component {
                                 maxWidth: "100%"
                                 }} eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
                             </NavDropdown>
-                            </div>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
