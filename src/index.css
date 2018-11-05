@@ -225,6 +225,11 @@
     min-height: 50px;
     width: 100%;
 }
+
+#basic-nav-dropdown text {
+    top: 50%;
+    left: 50%;
+}
     #basic-nav-dropdown:hover {
         background-color: goldenrod;
     }
