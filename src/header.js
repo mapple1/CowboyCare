@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavDropdown, Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
+import * as ReactBoot from 'react-bootstrap';
 import './index.css';
 
 
@@ -67,18 +68,11 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <div className="dropdown">
-                        <NavDropdown eventKey={4} title="About Us" id="basic-nav-dropdown">
-                            
-                                <div className="home">
-                                    <div className="Absolute-Center">
+                            <ReactBoot.NavDropdown eventKey={4} title="About Us" id="basic-nav-dropdown">
                                             <MenuItem eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
                                             <MenuItem eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></MenuItem >
                                         <MenuItem eventKey={4.3}><a href="#" className="anchor">Something Else</a></MenuItem >
-                                    </div>
-                                </div>
-                            </NavDropdown>
-                        </div>
+                            </ReactBoot.NavDropdown>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
