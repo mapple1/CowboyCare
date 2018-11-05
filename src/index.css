@@ -198,7 +198,7 @@
     margin-top: 45px;
     text-align: center;
     vertical-align: middle;
-    background-color: saddlebrown;
+    background-color: transparent;
     float: left;
     min-height: 50px;
     max-width: 100px;
@@ -278,6 +278,7 @@
 }
 
 .dropdown:hover .menuItem {
+    background-color: transparent;
     display: inline-block;
 }
 
