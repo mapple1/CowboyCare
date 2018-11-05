@@ -261,7 +261,17 @@
 
         #menuItem {
             display: none;
+            text-align: center;
+            justify-content: center;
+            vertical-align: middle;
+            background-color: saddlebrown;
+            border: 1px groove black;
+            font-size: 14px;
         }
+
+#menuItem:hover {
+    background-color: goldenrod;
+}
 
 #basic-nav-dropdown:hover #menuItem {
     display: block;
