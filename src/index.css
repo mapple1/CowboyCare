@@ -228,7 +228,7 @@
         position: relative;
         float: left;
         background-color:saddlebrown;
-        width: 100px;
+        width: 100%;
         z-index: 1;
     }
 
