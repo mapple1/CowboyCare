@@ -68,7 +68,7 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <ReactBoot.NavDropdown className="dropdown Absolute-Center" eventKey={4} value="About Us" id="basic-nav-dropdown">About Us
+                        <ReactBoot.NavDropdown className="dropdown Absolute-Center" eventKey={4} title="About Us" id="basic-nav-dropdown">
                                             <MenuItem className="menuItem" eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
                             <MenuItem className="menuItem" eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></MenuItem >
                             <MenuItem className="menuItem" eventKey={4.3}><a href="#" className="anchor">Something Else</a></MenuItem >
