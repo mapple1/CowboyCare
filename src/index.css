@@ -49,9 +49,6 @@
 .horse {
     height: 35%;
     width: 100%;
-    background-image: url('horse.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
     .wrapper {
