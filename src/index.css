@@ -199,7 +199,7 @@
     vertical-align: middle;
     background-color: saddlebrown;
     float: left;
-    height: 50px;
+    min-height: 50px;
     max-width: 100px;
 }
 
