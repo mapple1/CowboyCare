@@ -75,7 +75,8 @@ export default class Header extends Component {
                             textAlign: "center",
                             verticalAlign: "middle",
                             alignContent: "center",
-                            width: "100px"
+                            width: "100px",
+                            height: "50px"
                         }}
                             title = "About Us" eventKey={ 4} id="basic-nav-dropdown" >
                             <MenuItem className="menuItem" style={{
