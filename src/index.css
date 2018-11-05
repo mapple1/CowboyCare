@@ -258,8 +258,11 @@
             background-color: goldenrod;
         }
 
+        #menuItem {
+            display: none;
+        }
 
-#basic-nav-dropdown:hover .menuItem {
+#basic-nav-dropdown:hover #menuItem {
     display: block;
 }
 
