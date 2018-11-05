@@ -81,7 +81,7 @@ export default class Header extends Component {
                             height: "50px"
                         }}
                             title = "About Us" eventKey={ 4} id="basic-nav-dropdown" >
-                            <MenuItem className="menuItem Absolute-Center" style={{
+                            <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
                                 color: "black",
@@ -90,7 +90,7 @@ export default class Header extends Component {
                                 alignContent: "center",
                                 width: "100px"
                             }} eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
-                            <MenuItem className="menuItem Absolute-Center" style={{
+                            <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
                                 color: "black",
@@ -99,7 +99,7 @@ export default class Header extends Component {
                                 alignContent: "center",
                                 width: "100px"
                             }} eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></MenuItem >
-                            <MenuItem className="menuItem Absolute-Center" style={{
+                            <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
                                 color: "black",
