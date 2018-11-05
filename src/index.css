@@ -245,7 +245,11 @@
         display: block;
         text-align: center;
     }
-        .menuItem .Absolute-Center:hover {
+        .menuItem .Absolute-Center .anchor:hover {
+            background-color: goldenrod;
+        }
+
+        .menuItem:hover {
             background-color: goldenrod;
         }
 
