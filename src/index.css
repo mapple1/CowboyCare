@@ -220,13 +220,16 @@
     min-height: 50px;
     width: 100px;
 }
+    #basic-nav-dropdown:hover {
+        background-color: goldenrod;
+    }
 
-.menuItem {
-    display: none;
-    position: relative;
-    width: 100px;
-    z-index: 1;
-}
+    .menuItem {
+        display: none;
+        position: relative;
+        width: 100px;
+        z-index: 1;
+    }
 
     .menuItem .Absolute-Center {
         height: 50px;
@@ -255,7 +258,7 @@
 
 
         .dropdown:hover .menuItem {
-            display: inline-block;
+            display: block;
         }
 
 .corner-left {
