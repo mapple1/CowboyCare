@@ -74,7 +74,8 @@ export default class Header extends Component {
                             color: "black",
                             textAlign: "center",
                             verticalAlign: "middle",
-                            alignContent: "center"
+                            alignContent: "center",
+                            width: "100px"
                         }}
                             title = "About Us" eventKey={ 4} id="basic-nav-dropdown" >
                             <MenuItem className="menuItem" eventKey={4.1}><div className="Absolute-Center"><a href="#" className="anchor">Our Story</a></div></MenuItem >
