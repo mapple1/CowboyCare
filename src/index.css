@@ -240,14 +240,16 @@
         justify-content: center;
     }
 
-    .menuItem .anchor {
-        float: none;
-        color: black;
-        width: 100px;
-        text-decoration: none;
-        display: inline-block;
-        text-align: center;
-    }
+        .menuItem .anchor {
+            float: none;
+            color: black;
+            width: 100px;
+            vertical-align: middle;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
         .menuItem .anchor:hover {
             background-color: goldenrod;
         }
