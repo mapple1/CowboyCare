@@ -228,6 +228,7 @@
     .menuItem {
         display: none;
         position: relative;
+        float: left;
         width: 100px;
         z-index: 1;
     }
@@ -259,15 +260,16 @@
             background-color: goldenrod;
         }
 
-        #menuItem {
-            display: none;
-            text-align: center;
-            justify-content: center;
-            vertical-align: middle;
-            background-color: saddlebrown;
-            border: 1px groove black;
-            font-size: 14px;
-        }
+#menuItem {
+    display: none;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: saddlebrown;
+    border: 1px groove black;
+    font-size: 14px;
+}
 
 #menuItem:hover {
     background-color: goldenrod;
