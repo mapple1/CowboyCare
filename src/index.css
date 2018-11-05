@@ -102,6 +102,14 @@
         color: black;
         vertical-align: middle;
     }
+.anchor1 {
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
 
 .Absolute-Center {
     height: 50px;
