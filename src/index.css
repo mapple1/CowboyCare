@@ -259,9 +259,9 @@
         }
 
 
-        .dropdown:hover .menuItem {
-            display: block;
-        }
+#basic-nav-dropdown:hover .menuItem {
+    display: block;
+}
 
 .corner-left {
     width: 0px;

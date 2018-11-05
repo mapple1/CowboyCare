@@ -68,7 +68,7 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <NavDropdown className="dropdown Absolute-Center" style={{
+                        <NavDropdown className="Absolute-Center" style={{
                             listStyle: "none",
                             fontSize: "15px",
                             textDecoration: "none",
