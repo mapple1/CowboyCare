@@ -70,8 +70,10 @@ export default class Header extends Component {
                         </NavItem>
                         <NavDropdown className="dropdown Absolute-Center" style={{
                             listStyle: "none",
+                            fontSize: "15px",
                             textDecoration: "none",
                             color: "black",
+                            textDecorationColor: "translucent",
                             textAlign: "center",
                             verticalAlign: "middle",
                             alignContent: "center",
