@@ -226,7 +226,7 @@
 
     .menuItem {
         display: none;
-        position: absolute;
+        position: relative;
         width: 100px;
         z-index: 1;
     }
@@ -267,7 +267,7 @@
 }
 
 .dropdown:hover .menuItem {
-    display: block;
+    display: inline-block;
 }
 
 .corner-left {
