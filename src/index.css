@@ -280,13 +280,13 @@
 }
 
 .dropdown:hover .menuItem {
-    width: 100px;
+    width: 100%;
     background-color: transparent;
     display: inline-block;
 }
 
 .dropdown:hover #menuItem {
-    width: 100px;
+    width: 100%;
     display: inline-block;
 }
 
