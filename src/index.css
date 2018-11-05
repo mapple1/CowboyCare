@@ -237,7 +237,7 @@
         justify-content: center;
     }
 
-    .menuItem .Absolute-Center .anchor {
+    .menuItem .anchor {
         float: none;
         color: black;
         width: 100px;
@@ -245,7 +245,7 @@
         display: block;
         text-align: center;
     }
-        .menuItem .Absolute-Center .anchor:hover {
+        .menuItem .anchor:hover {
             background-color: goldenrod;
         }
 
