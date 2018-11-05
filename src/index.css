@@ -237,7 +237,7 @@
         display: flex;
         background-color: saddlebrown;
         align-items: center;
-        width: 100px;
+        width: 100%;
         justify-content: center;
     }
 
@@ -268,6 +268,7 @@
     vertical-align: middle;
     background-color: saddlebrown;
     border: 1px groove black;
+    width: 100%;
     font-size: 14px;
 }
 
@@ -280,13 +281,11 @@
 }
 
 .dropdown:hover .menuItem {
-    width: 100%;
     background-color: transparent;
     display: inline-block;
 }
 
 .dropdown:hover #menuItem {
-    width: 100%;
     display: inline-block;
 }
 
