@@ -102,7 +102,7 @@ export default class Header extends Component {
                                 verticalAlign: "middle",
                                 alignContent: "center",
                                 maxWidth: "100%"
-                            }} eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
+                            }} eventKey={4.2} href="#" className="anchor1">Our Care Specialists</MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
