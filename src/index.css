@@ -207,6 +207,7 @@
 .menuItem {
     display: none;
     position: relative;
+    width: 100px;
     z-index: 1;
 }
 
