@@ -103,7 +103,7 @@
         vertical-align: middle;
     }
 .anchor1 {
-    margin: 0;
+    margin: auto;
     width: 100%;
     font-size: 18px;
     text-decoration: none;
@@ -198,7 +198,6 @@
 .dropdown {
     display: table;
     position: relative;
-    border: 1px groove black;
     text-decoration: none;
     color: black;
     margin: 0;
@@ -249,8 +248,7 @@
         justify-content: center;
     }
 
-        .menuItem .anchor {
-            float: none;
+        .menuItem .anchor1 {
             color: black;
             width: 100%;
             height: 50px;
@@ -260,7 +258,7 @@
             display: inline-block;
             text-align: center;
         }
-        .menuItem .anchor:hover {
+        .menuItem .anchor1:hover {
             background-color: goldenrod;
         }
 
