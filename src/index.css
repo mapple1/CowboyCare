@@ -200,7 +200,7 @@
     background-color: saddlebrown;
     float: left;
     height: 50px;
-    width: 100px;
+    max-width: 100px;
 }
 
 
