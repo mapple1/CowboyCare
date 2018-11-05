@@ -91,7 +91,7 @@ export default class Header extends Component {
                                 verticalAlign: "middle",
                                 alignContent: "center",
                                 maxWidth: "100px"
-                            }} eventKey={4.1}><a href="#" className="anchor">Our Story</a></MenuItem >
+                            }} eventKey={4.1}><a href="#" className="Absolute-Center anchor">Our Story</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
@@ -102,7 +102,7 @@ export default class Header extends Component {
                                 verticalAlign: "middle",
                                 alignContent: "center",
                                 maxWidth: "100px"
-                            }} eventKey={4.2}><a href="#" className="anchor">Our Care Specialists</a></MenuItem >
+                            }} eventKey={4.2}><a href="#" className="Absolute-Center anchor">Our Care Specialists</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" style={{
                                 listStyle: "none",
                                 textDecoration: "none",
@@ -113,7 +113,7 @@ export default class Header extends Component {
                                 verticalAlign: "middle",
                                 alignContent: "center",
                                 maxWidth: "100px"
-                            }} eventKey={4.3}><a href="#" className="anchor">Something Else</a></MenuItem >
+                            }} eventKey={4.3}><a href="#" className="Absolute-Center anchor">Something Else</a></MenuItem >
                             </NavDropdown>
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
