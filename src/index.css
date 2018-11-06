@@ -101,14 +101,12 @@
 }
 
     .anchor {
-        margin: auto;
         font-size: 18px;
         text-decoration: none;
         color: black;
         vertical-align: middle;
     }
 .anchor1 {
-    margin: auto;
     width: 100%;
     font-size: 18px;
     text-decoration: none;
@@ -133,7 +131,6 @@
     text-align: center;
     vertical-align: middle;
     background-color: saddlebrown;
-    float: left;
     height: 50px;
     width: 100px;
 }
@@ -156,7 +153,6 @@
     text-align: center;
     vertical-align: middle;
     background-color: saddlebrown;
-    float: left;
     height: 50px;
     width: 615px;
 }
@@ -171,7 +167,6 @@
     text-align: center;
     vertical-align: middle;
     background-color: saddlebrown;
-    float: left;
     height: 50px;
     width: 150px;
 }
@@ -242,7 +237,6 @@
     .menuItem {
         display: none;
         position: relative;
-        float: left;
         left: 0px;
         background-color:saddlebrown;
         width: 100%;
@@ -282,7 +276,6 @@
 
 #menuItem {
     display: none;
-    float: left;
     text-align: center;
     justify-content: center;
     vertical-align: middle;
