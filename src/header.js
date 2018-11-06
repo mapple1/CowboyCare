@@ -17,7 +17,9 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar defaultNavExpanded fluid collapseOnSelect>
+            <Navbar fixedTop style={{
+                listStyle: "none"
+            }} defaultNavExpanded fluid collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
