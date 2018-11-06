@@ -30,7 +30,8 @@ export default class Header extends Component {
                     border: "none",
                     borderBottom: "none",
                     left: "0px",
-                    position: "relative"
+                    position: "relative",
+                    width: "100%"
                     }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
                             <div className="home left">
