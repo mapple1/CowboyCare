@@ -21,7 +21,8 @@
     }
 
     #nav-dropdowntoggle {
-        display: block;
+        display: inline-block;
+        float: left;
         position: relative;
         width: 100%;
         height: auto;
@@ -261,9 +262,9 @@
     max-width: 100px;
 }*/
 
-#nav-dropdowntoggle {
+/*#nav-dropdowntoggle {
     display: none;
-}
+}*/
 
 #basic-nav-dropdownnav {
     border: 1px groove black;
