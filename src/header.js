@@ -17,7 +17,7 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar staticTop style={{
+            <Navbar fluid style={{
                 listStyle: "none"
             }} defaultNavExpanded collapseOnSelect >
                 <Navbar.Header>
@@ -25,7 +25,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                     </Navbar.Brand>
                 </Navbar.Header>
-                <Nav fluid justified style={{
+                <Nav fluid style={{
                         listStyle: "none"
                     }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
