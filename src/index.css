@@ -39,7 +39,7 @@
 
     .header {
         right: 15%;
-        height: 100%;
+        height: auto;
         width: 80%;
         position: absolute;
         overflow: hidden;
