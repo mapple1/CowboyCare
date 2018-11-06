@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
 
     #navigation {
         background-color: transparent;
@@ -22,6 +22,9 @@
 
     #nav-dropdowntoggle {
         display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
     }
 
     .nav-dropdowntoggle:before {
