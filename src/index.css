@@ -234,7 +234,7 @@
     background-color: goldenrod;
 }
 
-    #button-toggle:hover #navbarSupportedContent {
+    #button-toggle:hover .collapse {
         display: block!important;
     }
 
