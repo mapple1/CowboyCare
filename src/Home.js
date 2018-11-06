@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NewHead from './navbar';
+import NewHead from './navigation.js';
 import './index.css';
 
 
@@ -10,7 +10,7 @@ export default class Home extends Component {
 
         return (
             <div>
-                <img className="horse" src="horse.jpg" />
+                <NewHead />
             </div>
             );
     }
