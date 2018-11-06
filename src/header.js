@@ -35,20 +35,20 @@ export default class Header extends Component {
                     position: "relative",
                     width: "100%"
                     }} bsStyle="tabs" activeKey="1">
-                    <NavItem style={{
+                    <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={1} >
                                 <span className="corner-left" />
                         Home
                         </NavItem>
-                    <NavItem style={{
+                    <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={2}>
                         Services
                         </NavItem>
-                    <NavItem style={{
+                    <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={3}>Frequently Asked Questions
@@ -62,7 +62,7 @@ export default class Header extends Component {
                             <MenuItem id="menuItem" eventKey={4.2}>Our Care Specialists</MenuItem >
                             <MenuItem id="menuItem" eventKey={4.3}>Something Else</MenuItem >
                             </NavDropdown>
-                    <NavItem style={{
+                    <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={5}>
