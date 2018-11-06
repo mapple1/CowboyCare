@@ -74,8 +74,8 @@
 
 #navigation {
     float: left;
-    right: 10%;
-    margin-left: 50%;
+    left: 10%;
+    padding-left: 25%;
     margin-right: auto;
     background-color: transparent;
     color: black;
