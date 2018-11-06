@@ -235,7 +235,7 @@
 }
 
     #button-toggle:hover #navbarSupportedContent {
-        display: block;
+        display: block!important;
     }
 
 .left {
