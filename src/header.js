@@ -28,8 +28,6 @@ export default class Header extends Component {
                 </Navbar.Header>
                 <Nav  id="basic-nav-dropdownnav" fluid style={{
                     listStyle: "none",
-                    border: "none",
-                    borderBottom: "none",
                     textDecoration: "none",
                     left: "0px",
                     position: "relative",
