@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import './navi.css';
 
 class Navigation extends React.Component {
 
