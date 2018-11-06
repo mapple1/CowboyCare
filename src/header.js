@@ -14,6 +14,51 @@ export default class Header extends Component {
                     //    <Navbar.Collapse>
                     //    </Navbar.Collapse>
 
+//                    <Nav id="basic-nav-dropdownnav" fluid style={{
+//    listStyle: "none",
+//    textDecoration: "none",
+//    left: "0px",
+//    position: "relative",
+//    width: "100%",
+//    backgroundColor: "saddlebrown"
+//}} bsStyle="tabs" activeKey="1">
+//    <NavItem id="basic-nav-dropdown" style={{
+//        textDecoration: "none",
+//        color: "black",
+//        borderLeft: "0px"
+//    }} eventKey={1} >
+//        <span className="corner-left" />
+//        Home
+//                        </NavItem>
+//    <NavItem id="basic-nav-dropdown" style={{
+//        textDecoration: "none",
+//        color: "black"
+//    }} eventKey={2}>
+//        Services
+//                        </NavItem>
+//    <NavItem id="basic-nav-dropdownFreq" style={{
+//        textDecoration: "none",
+//        color: "black"
+//    }} eventKey={3}>Frequently Asked Questions
+//                        </NavItem>
+//    <NavDropdown style={{
+//        textDecoration: "none",
+//        color: "black"
+//    }}
+//        title="About Us" eventKey={4} id="basic-nav-dropdown" >
+//        <MenuItem id="menuItem" eventKey={4.1}>Our Story</MenuItem >
+//        <MenuItem id="menuItem" eventKey={4.2}>Our Care Specialists</MenuItem >
+//        <MenuItem id="menuItem" eventKey={4.3}>Something Else</MenuItem >
+//    </NavDropdown>
+//    <NavItem id="basic-nav-dropdown" style={{
+//        textDecoration: "none",
+//        color: "black"
+//    }} eventKey={5}>
+//        Contact Us
+//                        </NavItem>
+//    <span className="corner-right" />
+//</Nav>
+
     render() {
 
         return (
@@ -30,7 +75,7 @@ export default class Header extends Component {
                     </Navbar.Toggle>
                 </Navbar.Header>
                 <Navbar.Collapse id="basic-nav-dropdownCollapse">
-                    <Nav  fluid style={{
+                    <Nav id="basic-nav-dropdownnav" fluid style={{
                         listStyle: "none",
                         textDecoration: "none",
                         left: "0px",
@@ -75,50 +120,6 @@ export default class Header extends Component {
                         <span className="corner-right" />
                     </Nav>
                 </Navbar.Collapse>
-                <Nav  id="basic-nav-dropdownnav" fluid style={{
-                    listStyle: "none",
-                    textDecoration: "none",
-                    left: "0px",
-                    position: "relative",
-                    width: "100%",
-                    backgroundColor: "saddlebrown"
-                    }} bsStyle="tabs" activeKey="1">
-                    <NavItem id="basic-nav-dropdown" style={{
-                        textDecoration: "none",
-                        color: "black",
-                        borderLeft: "0px"
-                    }} eventKey={1} >
-                                <span className="corner-left" />
-                        Home
-                        </NavItem>
-                    <NavItem id="basic-nav-dropdown" style={{
-                        textDecoration: "none",
-                        color: "black"
-                    }} eventKey={2}>
-                        Services
-                        </NavItem>
-                    <NavItem id="basic-nav-dropdownFreq" style={{
-                        textDecoration: "none",
-                        color: "black"
-                    }} eventKey={3}>Frequently Asked Questions
-                        </NavItem>
-                    <NavDropdown style={{
-                        textDecoration: "none",
-                        color: "black"
-                    }}
-                        title="About Us" eventKey={4} id="basic-nav-dropdown" >
-                            <MenuItem id="menuItem" eventKey={4.1}>Our Story</MenuItem >
-                            <MenuItem id="menuItem" eventKey={4.2}>Our Care Specialists</MenuItem >
-                            <MenuItem id="menuItem" eventKey={4.3}>Something Else</MenuItem >
-                            </NavDropdown>
-                    <NavItem id="basic-nav-dropdown" style={{
-                        textDecoration: "none",
-                        color: "black"
-                    }} eventKey={5}>
-                            Contact Us
-                        </NavItem>
-                    <span className="corner-right" />
-                    </Nav>
             </Navbar>
             );
     }
