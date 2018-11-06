@@ -74,18 +74,16 @@
 
 #navigation {
     float: left;
-    padding-left: 25%;
-    margin-right: auto;
     background-color: transparent;
     color: black;
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: auto;
     top: 0px;
     font-size: 0.85em;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
-    padding: 0px 8px;
+    padding: 10% 10%;
     z-index: 9999;
     /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
