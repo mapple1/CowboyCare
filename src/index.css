@@ -26,16 +26,16 @@
         width: 100%;
     }
 
-    .nav .nav-tabs .navbar-nav {
+    /*.nav .nav-tabs .navbar-nav {
         width: 100%;
         left: 0px;
         border: none;
         border-bottom: none;
-    }
+    }*/
     
-    a[role="button"] {
+    /*a[role="button"] {
         text-decoration: none;
-    }
+    }*/
 
     .header {
         right: 15%;
