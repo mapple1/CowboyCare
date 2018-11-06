@@ -20,10 +20,6 @@
         display: none;
     }
 
-    #button-toggle:hover #navbarSupportedContent {
-        display: block;
-    }
-
     /*#nav-dropdowntoggle {
         display: inline-block;
         float: left;
@@ -237,6 +233,10 @@
 #button-toggle:hover {
     background-color: goldenrod;
 }
+
+    #button-toggle:hover #navbarSupportedContent {
+        display: block;
+    }
 
 .left {
     border-radius: 0px 0px 0px 15px;
