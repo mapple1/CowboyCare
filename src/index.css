@@ -248,6 +248,10 @@
         background-color: goldenrod;
     }
 
+    .dropdown:hover .dropdown-menu {
+        display: inline-block;
+    }
+
     /*.menuItem {
         display: none;
         position: relative;
