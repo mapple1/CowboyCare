@@ -35,6 +35,8 @@
 
     #basic-nav-dropdownCollapse {
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     #nav-dropdowntoggle:hover #basic-nav-dropdownCollapse {

@@ -71,7 +71,7 @@ export default class Header extends Component {
                         <img className="Logo" src="logo.png" />
                     </Navbar.Brand>
                     <Navbar.Toggle id="nav-dropdowntoggle">
-                        <i className="fa fa-bars" />
+                        Menu
                     </Navbar.Toggle>
                 </Navbar.Header>
                 <Navbar.Collapse id="basic-nav-dropdownCollapse">
