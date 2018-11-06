@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './Home';
 import Head from './header';
 import Footer from './Footer';
+import NewHead from './navigation.js';
 import './index.css';
 
 export default class App extends Component {
@@ -20,7 +21,7 @@ export default class App extends Component {
 
         return (
             <div className="BodyBackground">
-                <div><div className="header"><Head /></div>
+                <div><div className="header"><NewHead /></div>
                     <div className="wrapper">
                         <div className="margin"/>
                         <div className="Body"><Home /></div>
