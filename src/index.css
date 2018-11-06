@@ -74,13 +74,12 @@
 
 #navigation {
     float: left;
-    left: 10%;
     padding-left: 25%;
     margin-right: auto;
     background-color: transparent;
     color: black;
     position: absolute;
-    width: 70%;
+    width: 60%;
     height: auto;
     top: 0px;
     font-size: 0.85em;
