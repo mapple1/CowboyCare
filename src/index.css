@@ -32,6 +32,10 @@
         border: none;
         border-bottom: none;
     }
+    
+    a[role="button"] {
+        text-decoration: none;
+    }
 
     .header {
         right: 15%;
