@@ -33,7 +33,8 @@ export default class Header extends Component {
                     textDecoration: "none",
                     left: "0px",
                     position: "relative",
-                    width: "100%"
+                    width: "100%",
+                    backgroundColor: "saddlebrown"
                     }} bsStyle="tabs" activeKey="1">
                     <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
