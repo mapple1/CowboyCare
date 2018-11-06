@@ -12,7 +12,7 @@ class Navigation extends React.Component {
         return (
             <nav id="navigation" className="navbar navbar-expand-lg navbar-light bg-light">
                 <a className="navbar-brand" href="/"><img className="Logo" src="logo.png" /></a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="button-toggle" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>Menu
                 </button>
 
