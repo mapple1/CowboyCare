@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavDropdown, Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
 import './index.css';
+import './logo.png';
 
 
 export default class Header extends Component {
@@ -22,7 +23,7 @@ export default class Header extends Component {
             }} defaultNavExpanded collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
-                            <div className="Logo" />
+                        <img className="logo" src="logo.png" />
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav fluid pullLeft style={{
