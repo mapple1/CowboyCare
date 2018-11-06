@@ -25,7 +25,7 @@ export default class Header extends Component {
                             <div className="Logo" />
                     </Navbar.Brand>
                 </Navbar.Header>
-                <Nav fluid style={{
+                <Nav fluid pullLeft style={{
                     listStyle: "none",
                     float: "left"
                     }} bsStyle="tabs" activeKey="1">

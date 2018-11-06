@@ -26,6 +26,11 @@
         width: 100%;
     }
 
+    .nav .nav-tabs .navbar-nav {
+        border: none;
+        border-bottom: none;
+    }
+
     .header {
         right: 15%;
         height: 100%;
