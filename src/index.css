@@ -238,7 +238,8 @@
 #basic-nav-dropdown {
     display: table;
     position: relative;
-    border: 0px groove black;
+    border-left: 1px groove black;
+    border-right: 1px groove black;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -268,7 +269,8 @@
 #basic-nav-dropdownFreq {
     display: table;
     position: relative;
-    border: 0px groove black;
+    border-left: 1px groove black;
+    border-right: 1px groove black;
     text-decoration: none;
     color: black;
     font-size: 15px;
