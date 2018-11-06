@@ -252,6 +252,10 @@
         display: inline-block;
     }
 
+    .dropdown:hover #menuItem {
+        display: inline-block;
+    }
+
     /*.menuItem {
         display: none;
         position: relative;
