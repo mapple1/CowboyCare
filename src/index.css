@@ -62,9 +62,9 @@
     width: 100%;
 }
 
-.dropdown-menu {
+/*.dropdown-menu {
     max-width: 100px;
-}
+}*/
 
     .wrapper {
         width: 100%;
@@ -183,9 +183,9 @@
         background-color: goldenrod;
     }
 
-.dropdown:hover {
+/*.dropdown:hover {
     background-color: transparent;
-}
+}*/
 
     .Logo {
         height: 100px;
@@ -234,7 +234,7 @@
         background-color: goldenrod;
     }
 
-    .menuItem {
+    /*.menuItem {
         display: none;
         position: relative;
         left: 0px;
@@ -272,7 +272,7 @@
 
         .menuItem:hover {
             background-color: goldenrod;
-        }
+        }*/
 
 #menuItem {
     display: none;
