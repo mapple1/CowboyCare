@@ -21,23 +21,23 @@ class Navigation extends React.Component {
                         <li id="basic-nav-dropdown" className="nav-item active">
                             <a className="nav-link" href="/">Home</a>
                         </li>
-                        <li id="basic-nav-dropdown" className="nav-item">
+                        <li id="basic-nav-dropdown" className="nav-item active">
                             <a className="nav-link" href="/">Services</a>
                         </li>
-                        <li id="basic-nav-dropdownFreq" className="nav-item">
+                        <li id="basic-nav-dropdownFreq" className="nav-item active">
                             <a className="nav-link" href="/">Frequently Asked Questions</a>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item dropdown active">
                             <a className="nav-link dropdown-toggle" href="/" id="basic-nav-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About Us
                              </a>
-                            <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
+                            <div className="dropdown-menu active" aria-labelledby="basic-nav-dropdown">
                                 <a id="menuItem" className="dropdown-item" href="/">Our Story</a>
                                 <a id="menuItem" className="dropdown-item" href="/">Our Care Specialists</a>
                                 <a id="menuItem" className="dropdown-item" href="/">Something else</a>
                             </div>
                         </li>
-                        <li id="basic-nav-dropdown" className="nav-item">
+                        <li id="basic-nav-dropdown active" className="nav-item">
                             <a className="nav-link" href="/">Contact Us</a>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
