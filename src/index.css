@@ -195,7 +195,7 @@
         background-repeat: no-repeat;
     }
 
-.dropdown {
+/*.dropdown {
     display: table;
     position: relative;
     text-decoration: none;
@@ -208,7 +208,7 @@
     background-color: transparent;
     min-height: 50px;
     max-width: 100px;
-}
+}*/
 
 #basic-nav-dropdown {
     display: table;
@@ -293,14 +293,14 @@
     display: inline-block;
 }
 
-.dropdown:hover .menuItem {
+/*.dropdown:hover .menuItem {
     background-color: transparent;
     display: inline-block;
 }
 
 .dropdown:hover #menuItem {
     display: inline-block;
-}
+}*/
 
 .corner-left {
     width: 0px;
