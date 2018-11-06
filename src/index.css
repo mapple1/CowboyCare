@@ -211,12 +211,9 @@
 }*/
 
 #basic-nav-dropdownnav {
-    display: table;
-    position: relative;
     border: 1px groove black;
     text-decoration: none;
     color: black;
-    font-size: 15px;
     bottom: 0;
     text-align: center;
     justify-content: center;
