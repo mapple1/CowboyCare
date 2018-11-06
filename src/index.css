@@ -253,6 +253,10 @@
         justify-content: center;
     }
 
+    .nav {
+        list-style: none;
+    }
+
         .menuItem .anchor1 {
             color: black;
             width: 100%;
