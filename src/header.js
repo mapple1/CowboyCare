@@ -26,7 +26,8 @@ export default class Header extends Component {
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav fluid style={{
-                        listStyle: "none"
+                    listStyle: "none",
+                    float: "left"
                     }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
                             <div className="home left">
