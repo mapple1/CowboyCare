@@ -24,6 +24,15 @@
         display: block;
     }
 
+    .nav-dropdowntoggle:before {
+        color: #FFFFFF;
+        font-family: 'FontAwesome';
+        content: ' ';
+        top: 1px;
+        margin-right: 6px;
+        position: relative;
+    }
+
     #basic-nav-dropdownCollapse {
         display: block;
     }
