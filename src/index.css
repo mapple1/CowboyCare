@@ -20,6 +20,10 @@
         display: none;
     }
 
+    #button-toggle:hover #navbarSupportedContent {
+        display: block;
+    }
+
     /*#nav-dropdowntoggle {
         display: inline-block;
         float: left;
@@ -118,9 +122,9 @@
     }*/
 
     .header {
-        right: 15%;
+        right: 20%;
         height: 50%;
-        width: 80%;
+        width: 75%;
         position: absolute;
         overflow: hidden;
         overflow-x: hidden;
