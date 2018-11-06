@@ -36,7 +36,8 @@ export default class Header extends Component {
                     }} bsStyle="tabs" activeKey="1">
                     <NavItem id="basic-nav-dropdown" style={{
                         textDecoration: "none",
-                        color: "black"
+                        color: "black",
+                        borderLeft: "0px"
                     }} eventKey={1} >
                                 <span className="corner-left" />
                         Home

@@ -191,6 +191,7 @@
         height: 100px;
         width: 170px;
         position: relative;
+        margin: 0px;
         display: block;
         border-radius: 10px 10px 10px 10px;
     }
