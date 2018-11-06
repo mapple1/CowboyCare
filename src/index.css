@@ -296,7 +296,7 @@
 }
 
 .bg-light {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 
 #basic-nav-dropdownnav {
