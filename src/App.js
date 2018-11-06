@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import Head from './header';
 import Footer from './Footer';
 import NewHead from './navigation.js';
 import './index.css';

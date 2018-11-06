@@ -320,7 +320,7 @@
     -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
 }
 
-#basic-nav-dropdownCollapse {
+#navbarSupportedContent {
     display: none;
     position: relative;
     border-left: 1px groove black;

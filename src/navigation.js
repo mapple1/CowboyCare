@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import './navi.css';
 
 class Navigation extends React.Component {
 
@@ -40,11 +39,11 @@ class Navigation extends React.Component {
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item">
                             <a className="nav-link" href="/">Contact Us</a>
-                        </li>
+                        </li><span className="corner-left" />
+                <span className="corner-right" />
                     </ul>
                 </div>
-                <span className="corner-left" />
-                <span className="corner-right" />
+                
             </nav>
         )
     }
