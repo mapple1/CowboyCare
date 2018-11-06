@@ -66,8 +66,9 @@ export default class Header extends Component {
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={5}>
-                            <span className="corner-right" />Contact Us
+                            Contact Us
                         </NavItem>
+                    <span className="corner-right" />
                     </Nav>
             </Navbar>
             );

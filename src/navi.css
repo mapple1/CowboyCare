@@ -122,6 +122,8 @@ ul.menu li li li.sfHover ul {
 
 .nav .nav-tabs .navbar-nav li {
     width: 200px;
+    background-color: saddlebrown;
+    border-radius: 0px 0px 0px 0px;
 }
 
 #navigation .nav .nav-tabs .navbar-nav a,
