@@ -10,7 +10,7 @@ export default class Home extends Component {
 
         return (
             <div>
-                <NewHead />
+                <img className="horse" src="horse.jpg" />
             </div>
             );
     }
