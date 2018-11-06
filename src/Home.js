@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './navbar';
+import navigation from './navbar';
 import './index.css';
 
 
@@ -10,7 +10,7 @@ export default class Home extends Component {
         return (
             <div>
                 <img className="horse" src="horse.jpg" />
-                <Navbar />
+                <navigation />
             </div>
             );
     }
