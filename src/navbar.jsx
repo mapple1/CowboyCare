@@ -9,9 +9,7 @@ export default class NewHead extends React.Component {
                     <Navbar.Brand>
                         <a href="#"> Test </a>
                     </Navbar.Brand>
-                    <Navbar.Toggle />
                 </Navbar.Header>
-                <Navbar.Collapse>
                     <Nav>
                         <NavItem eventKey={1} href="#">Home</NavItem>
                         <NavItem eventKey={2} href="#">Home</NavItem>
@@ -20,7 +18,6 @@ export default class NewHead extends React.Component {
                             <MenuItem eventKey={3.2}>Services 2</MenuItem>
                         </NavDropdown>
                     </Nav>
-                </Navbar.Collapse>
             </Navbar>
         );
     }

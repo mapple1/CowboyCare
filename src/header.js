@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavDropdown, Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
-import * as ReactBoot from 'react-bootstrap';
 import './index.css';
 
 
