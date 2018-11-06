@@ -52,8 +52,8 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <NavDropdown 
-                            title="About Us" eventKey={4} id="basic-nav-dropdown" >
+                    <NavDropdown
+                        title="About Us" className="home" eventKey={4} id="basic-nav-dropdown" >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.1}><a href="#" className="anchor1">Our Story</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
