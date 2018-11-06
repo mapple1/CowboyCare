@@ -22,7 +22,7 @@ export default class Header extends Component {
             }} defaultNavExpanded collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <img className="logo" src="logo.png" />
+                        <img className="Logo" src="logo.png" />
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav fluid pullLeft style={{
