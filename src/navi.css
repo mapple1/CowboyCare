@@ -120,6 +120,10 @@ ul.menu li li li.sfHover ul {
     color: #FFFFFF;
 }
 
+.nav .nav-tabs .navbar-nav li {
+    width: 100%;
+}
+
 #navigation .nav .nav-tabs .navbar-nav a,
 #navigation .nav .nav-tabs .navbar-nav a,
 #navigation .nav .nav-tabs .navbar-nav a,
