@@ -240,6 +240,36 @@
     -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
 }
 
+#basic-nav-dropdownFreq {
+    display: table;
+    position: relative;
+    border: 1px groove black;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: saddlebrown;
+    height: auto;
+    width: 200px;
+    z-index: 9999;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 2px 2px;
+    -khtml-border-radius: 0px 0px 2px 2px;
+    -webkit-border-radius: 0px 0px 2px 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+}
+
 #basic-nav-dropdown text {
     top: 50%;
     left: 50%;
@@ -315,7 +345,7 @@
     vertical-align: middle;
     background-color: saddlebrown;
     height: auto;
-    width: inherit;
+    width: 100px;
     margin: 0;
     padding: 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));

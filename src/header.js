@@ -48,7 +48,7 @@ export default class Header extends Component {
                     }} eventKey={2}>
                         Services
                         </NavItem>
-                    <NavItem id="basic-nav-dropdown" style={{
+                    <NavItem id="basic-nav-dropdownFreq" style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={3}>Frequently Asked Questions
