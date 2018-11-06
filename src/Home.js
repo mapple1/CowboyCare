@@ -5,11 +5,12 @@ import './index.css';
 
 export default class Home extends Component {
     //<img className="horse" src="horse.jpg" />
+    //<NewHead />
     render() {
 
         return (
             <div>
-                <NewHead />
+                <img className="horse" src="horse.jpg" />
             </div>
             );
     }
