@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 
-class navigation extends React.Component {
+export default class NewHead extends React.Component {
     render() {
         return (
             <Navbar fixedTop>
@@ -25,5 +25,3 @@ class navigation extends React.Component {
         );
     }
 }
-
-export { navigation };
