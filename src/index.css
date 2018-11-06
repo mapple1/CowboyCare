@@ -189,9 +189,6 @@
         position: relative;
         display: block;
         border-radius: 10px 10px 10px 10px;
-        background-image: url('logo.png');
-        background-size: auto;
-        background-repeat: no-repeat;
     }
 
 /*.dropdown {
