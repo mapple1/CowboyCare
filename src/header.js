@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NavDropdown, Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
 import './index.css';
-import './logo.png';
 
 
 export default class Header extends Component {
