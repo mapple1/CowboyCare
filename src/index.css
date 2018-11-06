@@ -74,6 +74,9 @@
 
 #navigation {
     float: left;
+    right: 10%;
+    margin-left: 50%;
+    margin-right: auto;
     background-color: transparent;
     color: black;
     position: absolute;
@@ -83,7 +86,6 @@
     font-size: 0.85em;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
-    margin-left: 25%;
     padding: 0px 8px;
     z-index: 9999;
     /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
@@ -117,16 +119,18 @@
         text-decoration: none;
     }*/
 
-    .header {
-        right: 10%;
-        width: 80%;
-        position: absolute;
-        overflow: hidden;
-        overflow-x: hidden;
-        align-content: center;
-        margin-left: 50%;
-        margin-right: auto;
-    }
+.header {
+    right: 10%;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 80%;
+    position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    align-content: center;
+    margin-left: 50%;
+    margin-right: auto;
+}
 
     .BodyBackground {
         height: 865px;
