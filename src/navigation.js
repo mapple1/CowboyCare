@@ -32,7 +32,7 @@ class Navigation extends React.Component {
                     <span className="navbar-toggler-icon"></span>Menu
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" data-pa id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto" id="basic-nav-dropdownnav">
                         <li id="basic-nav-dropdown" className="nav-item active">
                             <a className="nav-link" href="/">Home</a>
