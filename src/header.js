@@ -17,15 +17,19 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar fixedTop style={{
+            <Navbar defaultExpanded staticTop style={{
                 listStyle: "none"
             }} defaultNavExpanded fluid collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                     </Navbar.Brand>
-                    </Navbar.Header>
-                    <Nav justified bsStyle="tabs" activeKey="1">
+                    <Navbar.Toggle />
+                </Navbar.Header>
+                <Navbar.Collapse>
+                    <Nav justified style={{
+                        listStyle: "none"
+                    }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
                             <div className="home left">
                                 <span className="corner-left" />
@@ -62,7 +66,8 @@ export default class Header extends Component {
                     </div>
                                 </div>
                         </NavItem>
-                        </Nav>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
             );
     }
