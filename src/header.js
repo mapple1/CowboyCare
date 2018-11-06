@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavDropdown, Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
-import './index.css';
+import './navi.css';
 
 
 export default class Header extends Component {
@@ -39,7 +39,7 @@ export default class Header extends Component {
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={1} >
-                            <div className="home left">
+                            <div className="left">
                                 <span className="corner-left" />
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Home</a>
@@ -70,16 +70,16 @@ export default class Header extends Component {
                         textDecoration: "none",
                         color: "black"
                     }}
-                        title="About Us" className="home" eventKey={4} id="basic-nav-dropdown" >
-                            <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.1}><a href="#" className="anchor1">Our Story</a></MenuItem >
-                            <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
-                            <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
+                        title="About Us" eventKey={4} id="basic-nav-dropdown" >
+                            <MenuItem id="menuItem" eventKey={4.1}><a href="#" className="anchor1">Our Story</a></MenuItem >
+                            <MenuItem id="menuItem" eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
+                            <MenuItem id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
                             </NavDropdown>
                     <NavItem style={{
                         textDecoration: "none",
                         color: "black"
                     }} eventKey={5}>
-                        <div className="home right">
+                        <div className="right">
                             <span className="corner-right" />
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Contact Us</a>

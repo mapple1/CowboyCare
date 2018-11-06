@@ -1,0 +1,322 @@
+#navigation {
+    float: left;
+    background: #99CC00;
+    color: #666666;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 30px;
+    font-size: 0.85em;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 0px -8px;
+    padding: 0px 8px;
+    z-index: 9999;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    border-radius: 0px 0px 2px 2px;
+    -moz-border-radius: 0px 0px 2px 2px;
+    -khtml-border-radius: 0px 0px 2px 2px;
+    -webkit-border-radius: 0px 0px 2px 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.main-small-navigation ul.mobile-menu {
+    display: none;
+}
+
+.corner-left {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 8px solid #222222;
+}
+
+.corner-right {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 8px solid #222222;
+}
+
+
+.menu, .menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    line-height: 1.0;
+}
+
+    .menu ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .menu ul ul, ul.menu ul {
+            position: absolute;
+            top: -9999px;
+            width: 180px; /* left offset of submenus need to match (see below) */
+        }
+
+            .menu ul li ul li, ul.menu ul li {
+                width: 100%;
+                margin: 0px;
+            }
+
+    .menu li:hover {
+        visibility: inherit; /* fixes IE7 'sticky bug' */
+    }
+
+    .menu li {
+        float: left;
+        display: inline-block;
+        position: relative;
+    }
+
+        .menu li li {
+            display: block;
+            position: relative;
+        }
+
+    .menu a {
+        display: inline-block;
+        position: relative;
+    }
+
+    .menu li:hover ul,
+    .menu li.sfHover ul {
+        left: 0;
+        top: 50px; /* match top ul list item height */
+        z-index: 99;
+    }
+
+ul.menu li:hover li ul,
+ul.menu li.sfHover li ul {
+    top: -9999px;
+}
+
+ul.menu li li:hover ul,
+ul.menu li li.sfHover ul {
+    left: 180px; /* match ul width */
+    top: 0;
+}
+
+ul.menu li li:hover li ul,
+ul.menu li li.sfHover li ul {
+    top: -9999px;
+}
+
+ul.menu li li li:hover ul,
+ul.menu li li li.sfHover ul {
+    left: 180px; /* match ul width */
+    top: 0;
+}
+
+/*** SKIN ***/
+#navigation .menu .current_page_item a,
+#navigation .menu .current_page_ancestor a,
+#navigation .menu .current-menu-item a,
+#navigation .menu .current-cat a {
+    background: rgba(0, 0, 0, .12);
+    color: #FFFFFF;
+}
+
+#navigation .menu li .current_page_item a, #navigation .menu li .current_page_item a:hover,
+#navigation .menu li .current-menu-item a, #navigation .menu li .current-menu-item a:hover,
+#navigation .menu li .current-cat a, #navigation .menu li .current-cat a:hover {
+    background: rgba(0, 0, 0, .12);
+    color: #FFFFFF;
+}
+
+#navigation .menu .current_page_item ul li a,
+#navigation .menu .current-menu-item ul li a,
+#navigation .menu .current-menu-ancestor ul li a,
+#navigation .menu .current_page_ancestor ul li a,
+#navigation .menu .current-cat ul li a {
+    background: none;
+    color: #EEEEEE;
+}
+
+    #navigation .menu li.current-menu-ancestor a,
+    #navigation .menu li.current_page_ancestor a,
+    #navigation .menu .current_page_item ul li a:hover,
+    #navigation .menu .current-menu-item ul li a:hover,
+    #navigation .menu .current-menu-ancestor ul li a:hover,
+    #navigation .menu .current_page_ancestor ul li a:hover,
+    #navigation .menu .current-menu-ancestor ul .current_page_item a,
+    #navigation .menu .current_page_ancestor ul .current-menu-item a,
+    #navigation .menu .current-cat ul li a:hover {
+        background: rgba(0, 0, 0, .12);
+        color: #FFFFFF;
+    }
+
+.menu {
+    margin-bottom: 0;
+}
+
+    .menu ul.sub-menu,
+    .menu ul.children {
+        background: #99CC00;
+        border-radius: 0px 0px 3px 3px;
+        -moz-border-radius: 0px 0px 3px 3px;
+        -khtml-border-radius: 0px 0px 3px 3px;
+        -webkit-border-radius: 0px 0px 3px 3px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+        -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+        -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+    }
+
+    .menu a {
+        background: none;
+        min-height: 50px;
+        line-height: 4.2;
+        text-decoration: none;
+        text-shadow: -1px -1px rgba(0,0,0, 0.1);
+        letter-spacing: 0.4px;
+        margin: 0px;
+        padding: 0px 12px;
+    }
+
+        .menu a,
+        .menu a:link,
+        .menu a:visited {
+            color: #EEEEEE;
+        }
+
+            .menu a:focus,
+            .menu a:hover,
+            .menu a:active {
+                background: rgba(0, 0, 0, .12);
+                outline: 0;
+            }
+
+            .menu a:hover {
+                color: #FFFFFF;
+            }
+
+    .menu li li a {
+        display: block;
+        background: none;
+        min-height: 0;
+        font-size: 1em;
+        line-height: 2.8;
+        margin: 0px;
+        padding: 0px 12px;
+    }
+
+        .menu li li a,
+        .menu li li a:link,
+        .menu li li a:visited {
+            color: #EEEEEE;
+        }
+
+            .menu li li a:focus,
+            .menu li li a:hover,
+            .menu li li a:active {
+                background: rgba(0, 0, 0, .12);
+                outline: 0;
+            }
+
+            .menu li li a:hover {
+                color: #FFFFFF;
+            }
+
+#navigation .menu li.sfHover:hover a {
+    color: #FFFFFF;
+}
+
+#navigation .menu li.sfHover:hover {
+    background: rgba(0, 0, 0, .12);
+    outline: 0;
+}
+
+.menu li {
+    margin: 0px;
+    border-right: 1px solid rgba(0, 0, 0, .12);
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+    .menu li:first-child {
+        border-left: none;
+    }
+
+    .menu li li {
+        background: none;
+        margin: 0px;
+        border-right: none;
+        border-left: none;
+    }
+
+        .menu li li a {
+            border-top: 1px solid rgba(0, 0, 0, .12);
+        }
+
+    .menu li:first-child,
+    .menu li:first-child a {
+    }
+
+    .menu li li:last-child,
+    .menu li li:last-child a {
+    }
+
+/*** ARROWS **/
+.sf-arrows .sf-with-ul {
+    padding-right: 2.2em;
+    *padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+    /* styling for both css and generated arrows */
+    .sf-arrows .sf-with-ul:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 1em;
+        margin-top: -2px;
+        height: 0;
+        width: 0;
+        /* order of following 3 rules important for fallbacks to work */
+        border: 4px solid transparent;
+        border-top-color: #DDDDDD; /* edit this to suit design (no rgba in IE8) */
+        border-top-color: rgba(255,255,255,.5);
+    }
+
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+    border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+    margin-top: -4px;
+    margin-right: -3px;
+    border-color: transparent;
+    border-left-color: #DDDDDD; /* edit this to suit design (no rgba in IE8) */
+    border-left-color: rgba(255,255,255,.5);
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+    border-left-color: white;
+}
