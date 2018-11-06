@@ -29,7 +29,8 @@ export default class Header extends Component {
                     listStyle: "none",
                     border: "none",
                     borderBottom: "none",
-                    left: "0px"
+                    left: "0px",
+                    position: "relative"
                     }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
                             <div className="home left">
