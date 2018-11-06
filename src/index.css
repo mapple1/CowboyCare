@@ -278,6 +278,15 @@
         background-color: goldenrod;
     }
 
+#basic-nav-dropdownFreq text {
+    top: 50%;
+    left: 50%;
+}
+
+#basic-nav-dropdownFreq:hover {
+    background-color: goldenrod;
+}
+
     .dropdown:hover .dropdown-menu {
         display: inline-block;
     }
