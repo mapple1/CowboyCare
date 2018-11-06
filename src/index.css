@@ -238,6 +238,11 @@
         display: block!important;
     }
 
+.collapse:not(.show){
+    display: block!important;
+}
+
+
 .left {
     border-radius: 0px 0px 0px 15px;
 }
