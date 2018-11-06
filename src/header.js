@@ -25,12 +25,12 @@ export default class Header extends Component {
                     <Navbar.Brand>
                         <img className="Logo" src="logo.png" />
                     </Navbar.Brand>
-                    <Navbar.Toggle className="nav-dropdowntoggle">
+                    <Navbar.Toggle id="nav-dropdowntoggle">
                         <i className="fa fa-bars" />
                     </Navbar.Toggle>
                 </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav id="basic-nav-dropdownCollapse" fluid style={{
+                <Navbar.Collapse id="basic-nav-dropdownCollapse">
+                    <Nav  fluid style={{
                         listStyle: "none",
                         textDecoration: "none",
                         left: "0px",

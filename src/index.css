@@ -29,7 +29,7 @@
     }
 
     #nav-dropdowntoggle:hover #basic-nav-dropdownCollapse {
-        display: table;
+        display: block;
     }
 
     .mobile-menu {
