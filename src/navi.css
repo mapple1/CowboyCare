@@ -1,7 +1,7 @@
 #navigation {
     float: left;
-    background: #99CC00;
-    color: #666666;
+    background-color: transparent;
+    color: black;
     position: absolute;
     width: 100%;
     height: auto;
@@ -35,29 +35,6 @@
 .main-small-navigation ul.mobile-menu {
     display: none;
 }
-
-.corner-left {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    left: 0px;
-    top: -6px;
-    border-top: 6px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-right: 8px solid #222222;
-}
-
-.corner-right {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    right: 0px;
-    top: -6px;
-    border-top: 6px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-left: 8px solid #222222;
-}
-
 
 .menu, .menu * {
     margin: 0;
@@ -135,10 +112,18 @@ ul.menu li li li.sfHover ul {
 }
 
 /*** SKIN ***/
-#navigation .menu .current_page_item a,
-#navigation .menu .current_page_ancestor a,
-#navigation .menu .current-menu-item a,
-#navigation .menu .current-cat a {
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a {
+    background: rgba(0, 0, 0, .12);
+    color: #FFFFFF;
+}
+
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a,
+#navigation .nav .nav-tabs .navbar-nav a {
     background: rgba(0, 0, 0, .12);
     color: #FFFFFF;
 }
