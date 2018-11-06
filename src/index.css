@@ -24,6 +24,10 @@
         display: block;
     }
 
+    #basic-nav-dropdownCollapse {
+        display: block;
+    }
+
     #basic-nav-dropdownnav {
         display: none;
     }
