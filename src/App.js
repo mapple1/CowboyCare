@@ -14,13 +14,14 @@ export default class App extends Component {
         };
     }
 
+    //<div className="header"></div>
     displayName = App.name
 
     render() {
 
         return (
             <div className="BodyBackground">
-                <div><div className="header"><NewHead /></div>
+                <div><NewHead />
                     <div className="wrapper">
                         <div className="margin"/>
                         <div className="Body"><Home /></div>
