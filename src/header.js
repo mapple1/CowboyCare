@@ -17,16 +17,14 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar defaultExpanded staticTop style={{
+            <Navbar staticTop style={{
                 listStyle: "none"
             }} defaultNavExpanded fluid collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
                             <div className="Logo" />
                     </Navbar.Brand>
-                    <Navbar.Toggle />
                 </Navbar.Header>
-                <Navbar.Collapse>
                     <Nav justified style={{
                         listStyle: "none"
                     }} bsStyle="tabs" activeKey="1">
@@ -56,7 +54,7 @@ export default class Header extends Component {
                             title="About Us" eventKey={4} id="basic-nav-dropdown" >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.1}><a href="#" className="anchor1">Our Story</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
-                            <MenuItem className="menuItem" id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
+                            <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
                             </NavDropdown>
                         <NavItem eventKey={5}>
                         <div className="home right">
@@ -67,7 +65,6 @@ export default class Header extends Component {
                                 </div>
                         </NavItem>
                     </Nav>
-                </Navbar.Collapse>
             </Navbar>
             );
     }
