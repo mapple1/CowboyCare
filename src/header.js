@@ -25,7 +25,7 @@ export default class Header extends Component {
                         <img className="Logo" src="logo.png" />
                     </Navbar.Brand>
                 </Navbar.Header>
-                <Nav fluid pullLeft style={{
+                <Nav fluid style={{
                     listStyle: "none",
                     border: "none",
                     borderBottom: "none",
