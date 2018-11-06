@@ -254,6 +254,7 @@
 
     .dropdown-menu{
         background-color: transparent;
+        padding: 0;
         border: none;
     }
 
