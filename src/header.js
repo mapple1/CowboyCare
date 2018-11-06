@@ -120,15 +120,13 @@ export default class Header extends Component {
                         <NavItem style={{
                             marginBlockStart: "0", marginBlockEnd: "0"
                         }} eventKey={5}>
-                <div className="home">
+                        <div className="home right">
+                            <span className="corner-right" />
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Contact Us</a>
                     </div>
                                 </div>
                         </NavItem>
-                        <div className="filler right">
-                            <span className="corner-right" />
-                            </div>
                         </Nav>
             </Navbar>
             );
