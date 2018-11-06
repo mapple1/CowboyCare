@@ -28,7 +28,8 @@ export default class Header extends Component {
                 <Nav fluid pullLeft style={{
                     listStyle: "none",
                     border: "none",
-                    borderBottom: "none"
+                    borderBottom: "none",
+                    left: "0px"
                     }} bsStyle="tabs" activeKey="1">
                         <NavItem eventKey={1} >
                             <div className="home left">
