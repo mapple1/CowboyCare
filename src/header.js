@@ -18,7 +18,8 @@ export default class Header extends Component {
 
         return (
             <Navbar fluid className="navbar-expand-lg" style={{
-                listStyle: "none"
+                listStyle: "none",
+                textDecoration: "none"
             }} defaultNavExpanded collapseOnSelect >
                 <Navbar.Header>
                     <Navbar.Brand>
@@ -29,11 +30,15 @@ export default class Header extends Component {
                     listStyle: "none",
                     border: "none",
                     borderBottom: "none",
+                    textDecoration: "none",
                     left: "0px",
                     position: "relative",
                     width: "100%"
                     }} bsStyle="tabs" activeKey="1">
-                        <NavItem eventKey={1} >
+                    <NavItem style={{
+                        textDecoration: "none",
+                        color: "black"
+                    }} eventKey={1} >
                             <div className="home left">
                                 <span className="corner-left" />
                     <div className="Absolute-Center">
@@ -41,27 +46,39 @@ export default class Header extends Component {
                     </div>
                             </div>
                         </NavItem>
-                        <NavItem eventKey={2}>
+                    <NavItem style={{
+                        textDecoration: "none",
+                        color: "black"
+                    }} eventKey={2}>
                 <div className="home">
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Services</a>
                     </div>
                             </div>
                         </NavItem>
-                        <NavItem eventKey={3}>
+                    <NavItem style={{
+                        textDecoration: "none",
+                        color: "black"
+                    }} eventKey={3}>
                 <div className="freq">
                     <div className="Absolute-Center">
                         <a href="#" className="anchor">Frequently Asked Questions</a>
                     </div>
                             </div>
                         </NavItem>
-                    <NavDropdown
+                    <NavDropdown style={{
+                        textDecoration: "none",
+                        color: "black"
+                    }}
                         title="About Us" className="home" eventKey={4} id="basic-nav-dropdown" >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.1}><a href="#" className="anchor1">Our Story</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.2}><a href="#" className="anchor1">Our Care Specialists</a></MenuItem >
                             <MenuItem className="menuItem Absolute-Center" id="menuItem" eventKey={4.3}><a href="#" className="anchor1">Something Else</a></MenuItem >
                             </NavDropdown>
-                        <NavItem eventKey={5}>
+                    <NavItem style={{
+                        textDecoration: "none",
+                        color: "black"
+                    }} eventKey={5}>
                         <div className="home right">
                             <span className="corner-right" />
                     <div className="Absolute-Center">
