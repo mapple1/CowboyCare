@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, IndexRoute, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';

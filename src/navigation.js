@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Link } from 'react-router';
+import { Link } from 'react-router';
 import './index.css';
 
 class Navigation extends React.Component {
