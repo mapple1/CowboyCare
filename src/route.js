@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route} from 'react-router';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
