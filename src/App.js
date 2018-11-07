@@ -22,14 +22,12 @@ export default class App extends Component {
         return (
             <div>
             <div className="BodyBackground">
-                <div>
                     <div className="wrapper">
                         <div className="margin"><NewHead />
                                 <div className="Body"><Home /></div>
                                 </div>
                     </div>
                 </div>
-            </div>
             <Footer />
             </div>
         );
