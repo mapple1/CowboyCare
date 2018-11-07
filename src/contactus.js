@@ -5,7 +5,7 @@ export default class ContactUs extends Component {
     render() {
 
         return (
-            <form action="mailto:swimstar996@yahoo.com" method="post" enctype="text/plain">
+            <form action="https://script.google.com/macros/s/AKfycbzVyix1XCoaByGvqxz5DqcUtH_nvb__90okXCtWpA/exec" method="post" enctype="text/plain">
                 Name:<br/>
                     <input type="text" name="name" /><br />
                         E-mail:<br />
