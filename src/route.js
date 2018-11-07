@@ -12,7 +12,7 @@ export default class rout extends Component {
         const container = () => <div><NewHead /> {this.props.children}</div>;
         const home = () => <Home />;
         const services = () => <Services />;
-        const contact = () => <ReactContactForm />
+        const contact = () => <ReactContactForm style={{ marginTop: "40px" }} />
         const NotFound = () => <div className="container"><h1 style={{ marginTop: "40px", backgroundColor: "white" }}> You just got 404'd! </h1></div>;
         //<NewHead />
         return (
