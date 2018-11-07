@@ -47,8 +47,8 @@
 
 .root {
     padding: 0px 12px;
-    display: inline-block;
-    clear: both;
+    display: block;
+    float:left;
 }
 
     /*.nav .nav-tabs .navbar-nav {
@@ -81,14 +81,15 @@
     justify-content: space-between;
 }
 
-    .BodyBackground {
-        height: auto;
-        width: 100%;
-        display: inline-block;
-        background-image: url('background3.jpg');
-        background-size: auto;
-        background-repeat: repeat;
-    }
+.BodyBackground {
+    height: auto;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    background-image: url('background3.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+}
 
 .horse {
     height: auto;
@@ -110,17 +111,18 @@
     max-width: 100px;
 }*/
 
-    .wrapper {
-        width: 100%;
-        height: auto;
-        display: inline-block;
-        position: relative;
-        border-radius: 25px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+    border-radius: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
     .margin {
         display: inline-block;
@@ -135,6 +137,7 @@
     margin-right: 5%;
     background-color: transparent;
     text-align: left;
+    float: left;
     display: inline-block;
     overflow: hidden;
     overflow-y: hidden;
