@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NewHead from './navigation.js';
 import './index.css';
 
 
