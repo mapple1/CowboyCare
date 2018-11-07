@@ -23,11 +23,11 @@ class Navigation extends React.Component {
 //    <form className="form-inline my-2 my-lg-0">
 //    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
 //    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-//</form>
+//</form><a className="navbar-brand" href="/"><img className="Logo" src="logo.png" /></a>
     render() {
         return (
             <nav id="navigation" className="navbar navbar-expand-xl navbar-light bg-light">
-                <a className="navbar-brand" href="/"><img className="Logo" src="logo.png" /></a>
+                
                 <button id="button-toggle" className="navbar-toggler" onMouseOver={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={this.state.toggle}>
                     <span className="navbar-toggler-icon"></span>Menu
                 </button>
