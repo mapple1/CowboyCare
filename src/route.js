@@ -16,7 +16,7 @@ export default class rout extends Component {
         return (
             <Route path='/' Component={container}>
                 <Switch>
-                    <Route exact path='/' Component={home} />
+                    <Route path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Switch>
