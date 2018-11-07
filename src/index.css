@@ -111,11 +111,12 @@
     .wrapper {
         width: 100%;
         height: 100%;
-        display: flex;
+        display: table;
         position: relative;
         border-radius: 25px;
         flex-direction: row;
         flex-wrap: wrap;
+        overflow: auto;
         justify-content: center;
         align-items: center;
     }
@@ -132,7 +133,7 @@
     margin-right: 5%;
     background-color: transparent;
     text-align: left;
-    display: inline-block;
+    display: table-row;
     overflow: hidden;
     overflow-y: hidden;
 }
@@ -326,6 +327,7 @@
 }
 
 .container {
+    display: table-row;
     background-color: transparent;
     position: absolute;
     max-width: 980px;
