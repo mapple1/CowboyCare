@@ -15,13 +15,11 @@ export default class routing extends Component {
         const NotFound = () => <h1> You just got 404'd! </h1>;
 
         return (
-            <Router history={HashRouter}>
                 <Route path='/' Component={container}>
                     <Route exact path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Route>
-            </Router>
                 );
 
 

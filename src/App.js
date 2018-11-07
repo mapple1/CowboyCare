@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
+import { HashRouter, Router } from 'react-router-dom';
 import routing from './route.js';
 import Footer from './Footer';
 import NewHead from './navigation.js';
@@ -22,6 +23,7 @@ export default class App extends Component {
 
         return (
             <div>
+                <Router history={HashRouter}>
             <div className="BodyBackground">
                     <div className="wrapper">
                         <div className="margin"><NewHead />
@@ -31,7 +33,8 @@ export default class App extends Component {
                         </div>
                     </div>
                 </div>
-            <Footer />
+                    <Footer />
+                </Router>
             </div>
         );
     }
