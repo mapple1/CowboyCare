@@ -17,7 +17,7 @@ export default class rout extends Component {
             <div>
                 <NewHead />
                 <Switch>
-                    <Route path='/' Component={home} />
+                    <Route exact path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Switch>
