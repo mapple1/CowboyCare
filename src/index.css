@@ -149,8 +149,8 @@
 }
 
 .Logo {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     position: relative;
     margin: 0px;
     display: block;

@@ -74,8 +74,8 @@
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
 
-        #navigation .corner-left,
-        #navigation .corner-right {
+        .corner-left,
+        .corner-right {
             display: none;
         }
 
