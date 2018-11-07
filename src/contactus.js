@@ -15,7 +15,7 @@ export default class ContactUs extends Component {
                 Name:<br/>
                     <input type="text" name="name" /><br />
                         E-mail:<br />
-                            <input type="email" name="email" /><br />
+                            <input type="email" name="_replyto" /><br />
                                 Comment:<br />
                                     <input type="text" name="message" size="50" /><br/><br/>
                                         <input type="submit" value="Send" />
