@@ -8,7 +8,7 @@ import './index.css';
 export default class routing extends Component {
 
     render() {
-        const container = () => <div><NewHead /> {props.children}</div>;
+        const container = () => <div><NewHead /> {this.props.children}</div>;
         const home = () => <Home />;
         const services = () => <Services />;
         const NotFound = () => <h1> You just got 404'd! </h1>;
