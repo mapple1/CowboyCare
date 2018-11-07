@@ -372,7 +372,7 @@ body {
 
 .container {
     background-color: transparent;
-    position: relative;
+    position: absolute;
     max-width: 980px;
     border-radius: 0px;
     -moz-border-radius: 0px;

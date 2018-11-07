@@ -24,11 +24,8 @@ export default class App extends Component {
                 <div>
                     <div className="wrapper">
                         
-                        <div className="margin" /><NewHead />
-                        <div className="Body"><div className="container">
-                            <Home />
-                        </div>
-                            </div>
+                        <div className="margin"/><NewHead />
+                        <div className="Body"><Home /></div>
                     </div>
             </div>
 
