@@ -177,7 +177,7 @@
         width: 100%;
     }
 
-body {
+.Body {
     background: #EEEEEE;
     color: #666666;
     font-size: 0.9em;
