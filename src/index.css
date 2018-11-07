@@ -478,15 +478,15 @@
     top: 50%;
     left: 50%;
 }
-    #basic-nav-dropdown:hover {
-        background-color: goldenrod;
-    }
+
 
 #basic-nav-dropdownFreq text {
     top: 50%;
     left: 50%;
 }
-
+    #basic-nav-dropdown:hover {
+        background-color: goldenrod;
+    }
 #basic-nav-dropdownFreq:hover {
     background-color: goldenrod;
 }
