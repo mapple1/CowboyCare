@@ -11,7 +11,7 @@ export default class ContactUs extends Component {
     render() {
 
         return (
-            <form action="https://formspree.io/your@email.com" method="post" enctype="text/plain">
+            <form action="https://formspree.io/ContactCowboy.Care@gmail.com" method="post" enctype="text/plain">
                 Name:<br/>
                     <input type="text" name="name" /><br />
                         E-mail:<br />
