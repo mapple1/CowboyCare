@@ -137,7 +137,7 @@
         height: 100%;
         width: 100%;
         background-image: url('backgroundimg2.jpg');
-        background-size: 100%;
+        background-size: auto;
         background-repeat: no-repeat;
     }
 
