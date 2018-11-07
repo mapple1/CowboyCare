@@ -24,7 +24,7 @@ export default class App extends Component {
                 <div>
                     <div className="wrapper">
                         
-                        <div className="margin" /><NewHead />
+                        <div className="margin" /><a href="/"><img className="Logo" src="logo.png" /></a><NewHead />
                         <div className="Body">
                             <Home />
                         </div>
