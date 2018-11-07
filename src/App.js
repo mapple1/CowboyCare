@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import { HashRouter, Router } from 'react-router-dom';
-import routing from './route.js';
+import { BrowserRouter, Router } from 'react-router-dom';
+import rout from './route.js';
 import Footer from './Footer';
 import NewHead from './navigation.js';
 import './index.css';
@@ -23,18 +23,18 @@ export default class App extends Component {
 
         return (
             <div>
-                <Router history={HashRouter}>
+                <BrowserRouter>
             <div className="BodyBackground">
                     <div className="wrapper">
                         <div className="margin"><NewHead />
                             <div className="Body">
-                                <routing />
+                                <rout />
                             </div>
                         </div>
                     </div>
                 </div>
                     <Footer />
-                </Router>
+                </BrowserRouter>
             </div>
         );
     }
