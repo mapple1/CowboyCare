@@ -2,14 +2,20 @@ import React, { Component } from 'react';
 
 export default class ContactUs extends Component {
 
+
+//    <form action="https://formspree.io/your@email.com" method="POST">
+//    <input type="text" name="name">
+//        <input type="email" name="_replyto">
+//            <input type="submit" value="Send">
+//</form>
     render() {
 
         return (
-            <form id="gform" action="https://script.google.com/macros/s/AKfycbzVyix1XCoaByGvqxz5DqcUtH_nvb__90okXCtWpA/exec" method="post" enctype="text/plain">
+            <form action="https://formspree.io/your@email.com" method="post" enctype="text/plain">
                 Name:<br/>
                     <input type="text" name="name" /><br />
                         E-mail:<br />
-                            <input type="text" name="email" /><br />
+                            <input type="email" name="email" /><br />
                                 Comment:<br />
                                     <input type="text" name="message" size="50" /><br/><br/>
                                         <input type="submit" value="Send" />
