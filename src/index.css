@@ -139,8 +139,7 @@
 
 .horse {
     height: 100%;
-    width: 90%;
-    padding-left: 21%;
+    width: 100;
     justify-content: center;
     align-self: center;
 }
