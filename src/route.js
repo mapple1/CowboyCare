@@ -12,10 +12,9 @@ export default class rout extends Component {
         const home = () => <Home />;
         const services = () => <Services />;
         const NotFound = () => <h1> You just got 404'd! </h1>;
-
+        //<NewHead />
         return (
             <div>
-                <NewHead />
                 <Switch>
                     <Route exact path='/' component={home} />
                     <Route exact path='/services' component={services} />
