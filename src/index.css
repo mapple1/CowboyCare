@@ -116,7 +116,7 @@
         border-radius: 25px;
         flex-direction: row;
         flex-wrap: wrap;
-        overflow: auto;
+        overflow: scroll;
         justify-content: center;
         align-items: center;
     }
