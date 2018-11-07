@@ -6,7 +6,7 @@ export default class ContactUs extends Component {
     render() {
 
         return (
-            <div>
+            <div className="container">
                 <form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain" >
                 Name:<br/>
                     <input id="name" type="text" name="name" /><br />
@@ -17,10 +17,6 @@ export default class ContactUs extends Component {
                                         <input type="submit" value="Send" />
                                             <input type="reset" value="Reset" />
                 </form>
-                <div class="thankyou_message" style={{ display: "none" }}>
-                    <h2><em>Thanks</em> for contacting us!
-                    We will get back to you soon!</h2>
-                </div>
                 </div>
             );
     }
