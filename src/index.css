@@ -156,7 +156,8 @@
     border-top: 1px groove black;
     overflow: hidden;
     background-color: saddlebrown;
-    height: 25%;
+    height: 10%;
+    bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
