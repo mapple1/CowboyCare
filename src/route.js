@@ -3,16 +3,16 @@ import { Route, Switch } from 'react-router-dom';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
-import ReactContactForm from './contact';
+import ReactContactForm from './contactus';
 import './index.css';
 
 export default class rout extends Component {
-
+    //to="swimstar996@yahoo.com" 
     render() {
         const container = () => <div><NewHead /> {this.props.children}</div>;
         const home = () => <Home />;
         const services = () => <Services />;
-        const contact = () => <ReactContactForm to="swimstar996@yahoo.com" />
+        const contact = () => <ReactContactForm />
         const NotFound = () => <div className="container"><h1 style={{ marginTop: "40px", backgroundColor: "white" }}> You just got 404'd! </h1></div>;
         //<NewHead />
         return (
