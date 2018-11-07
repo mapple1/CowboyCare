@@ -115,17 +115,15 @@
 
 .header {
     right: 10%;
-    margin-left: 50%;
-    margin-right: auto;
+    margin: 24px 0px 0px 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 9999;
     width: 100%;
     height: auto;
-    top: 0;
-    position: relative;
     overflow: hidden;
     overflow-x: hidden;
     align-content: center;
-    margin-left: 50%;
-    margin-right: auto;
 }
 
 .header .site-info {
