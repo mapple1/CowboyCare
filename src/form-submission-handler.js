@@ -110,6 +110,7 @@
         var forms = document.querySelectorAll("form.gform");
         for (var i = 0; i < forms.length; i++) {
             forms[i].addEventListener("submit", handleFormSubmit, false);
+            console.log("Contact form submission handler loaded successfully 2.");
         }
     };
     document.addEventListener("DOMContentLoaded", loaded, false);
