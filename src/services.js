@@ -8,7 +8,7 @@ export default class Services extends Component {
 
         return (
             <div className="container">
-                Testing routing.
+                <img className="horse" src="backgroundimg2.jpg" />
             </div>
             );
     }
