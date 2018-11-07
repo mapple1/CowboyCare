@@ -118,7 +118,7 @@
     margin-left: 50%;
     margin-right: auto;
     width: 80%;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     overflow-x: hidden;
     align-content: center;
