@@ -110,7 +110,7 @@
 
     .wrapper {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: flex;
         position: relative;
         border-radius: 25px;
