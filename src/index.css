@@ -136,9 +136,9 @@
     .BodyBackground {
         height: 865px;
         width: 100%;
-        background-image: url('backgroundimg.jpg');
+        background-image: url('background3.jpg');
         background-size: auto;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
     }
 
 .horse {
