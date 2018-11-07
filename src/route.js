@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
@@ -14,13 +14,13 @@ export default class rout extends Component {
         const NotFound = () => <h1> You just got 404'd! </h1>;
 
         return (
-            <div>
+            <Switch>
                 <Route path='/' Component={container}>
                     <Route exact path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Route>
-                </div>
+            </Switch>
                 );
 
 
