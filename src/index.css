@@ -45,10 +45,11 @@
     -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);*/
 }
 
-    .root {
-        padding: 0px 12px;
-        display: inline-block;
-    }
+.root {
+    padding: 0px 12px;
+    display: inline-block;
+    clear: both;
+}
 
     /*.nav .nav-tabs .navbar-nav {
         width: 100%;
@@ -81,7 +82,7 @@
 }
 
     .BodyBackground {
-        height: 100%;
+        height: auto;
         width: 100%;
         display: inline-block;
         background-image: url('background3.jpg');
