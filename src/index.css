@@ -179,9 +179,9 @@
 
 .Body {
     height: 100%;
-    width: 60%;
+    width: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 15%;
     background-color: transparent;
     text-align: left;
     display: inline-block;
