@@ -50,6 +50,7 @@
     width: 100%;
     padding: 0px 12px;
     display: block;
+    position: relative;
     float:left;
 }
 
@@ -88,6 +89,7 @@
     width: 100%;
     float: left;
     clear: both;
+    position: absolute;
     display: inline-block;
     background-image: url('background3.jpg');
     background-size: 100%;
@@ -118,7 +120,7 @@
     width: 100%;
     height: auto;
     display: inline-block;
-    position: relative;
+    position: absolute;
     float: left;
     border-radius: 25px;
     flex-direction: row;
