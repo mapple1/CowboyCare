@@ -23,7 +23,7 @@ export default class App extends Component {
             <div className="BodyBackground">
                 <div>
                     <div className="wrapper">
-                        
+                        <img className="Logo" src="logo.png" />
                         <div className="margin"/><NewHead />
                         <div className="Body"><Home /></div>
                     </div>
