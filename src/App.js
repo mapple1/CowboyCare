@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
+import routing from './route.js';
 import Footer from './Footer';
 import NewHead from './navigation.js';
 import './index.css';
@@ -24,8 +25,10 @@ export default class App extends Component {
             <div className="BodyBackground">
                     <div className="wrapper">
                         <div className="margin"><NewHead />
-                                <div className="Body"><Home /></div>
-                                </div>
+                            <div className="Body">
+                                <routing />
+                            </div>
+                        </div>
                     </div>
                 </div>
             <Footer />

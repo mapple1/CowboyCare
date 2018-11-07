@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 import './index.css';
 
 class Navigation extends React.Component {
@@ -35,10 +36,10 @@ class Navigation extends React.Component {
                 <div className="collapse navbar-collapse" data-pa id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto" id="basic-nav-dropdownnav">
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <a className="nav-link" href="/">Home</a>
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <a className="nav-link" href="/">Services</a>
+                            <Link className="nav-link" to="/services">Services</Link>
                         </li>
                         <li id="basic-nav-dropdownFreq" className="nav-item active">
                             <a className="nav-link" href="/">Frequently Asked Questions</a>
