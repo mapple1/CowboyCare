@@ -47,6 +47,7 @@
 
     .root {
         padding: 0px 12px;
+        display: inline-block;
     }
 
     /*.nav .nav-tabs .navbar-nav {
