@@ -16,7 +16,7 @@ export default class App extends Component {
         };
     }
 
-    //<div className="header"></div>
+    //<div className="header"></div><NewHead />
     displayName = App.name
 
     render() {
@@ -25,7 +25,7 @@ export default class App extends Component {
             <div>
             <div className="BodyBackground">
                     <div className="wrapper">
-                        <div className="margin"><NewHead />
+                        <div className="margin">
                             <div className="Body">
                                 <BrowserRouter>
                                     <rout />
