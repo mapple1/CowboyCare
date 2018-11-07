@@ -90,7 +90,7 @@
     clear: both;
     display: inline-block;
     background-image: url('background3.jpg');
-    background-size: auto;
+    background-size: 100%;
     background-repeat: repeat;
 }
 
