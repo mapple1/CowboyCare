@@ -15,7 +15,7 @@ export default class Home extends Component {
                     visit <a style={{ textDecoration: "none", color: "saddlebrown" }} href="https://cowboy-care.netlify.com/#/services"> here.</a>
                     <br />This is however just a test of what can be done for this site.
                     <br />If you have questions about how things look here please contact me.
-                    <br/>Otherwise this site was built for nothing. <3
+                    <br/>Otherwise this site was built for nothing.
                 </p>
             </div>
             );
