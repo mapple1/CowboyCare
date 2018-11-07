@@ -134,7 +134,7 @@
 }
 
     .BodyBackground {
-        height: 865px;
+        height: auto;
         width: 100%;
         background-image: url('backgroundimg2.jpg');
         background-size: 100%;
