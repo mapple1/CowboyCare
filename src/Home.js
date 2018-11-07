@@ -9,7 +9,7 @@ export default class Home extends Component {
     render() {
 
         return (
-            <div>
+            <div className="container">
                 <img className="horse" src="horse.jpg" />
             </div>
             );
