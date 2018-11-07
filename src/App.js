@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import { BrowserRouter, Router } from 'react-router-dom';
+import { BrowserRouter, Router, HashRouter } from 'react-router-dom';
 import Rout from './route';
 import Footer from './Footer';
 import NewHead from './navigation.js';
@@ -27,9 +27,9 @@ export default class App extends Component {
                     <div className="wrapper">
                         <div className="margin">
                             <div className="Body">
-                                <BrowserRouter>
+                                <HashRouter>
                                     <Rout />
-                                </BrowserRouter>
+                                </HashRouter>
                             </div>
                         </div>
                     </div>

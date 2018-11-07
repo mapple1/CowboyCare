@@ -17,13 +17,10 @@ export default class rout extends Component {
             <div>
                 <NewHead />
                 <Switch>
-                    <Route exact path='/' Component={home} />
-                    <Route path='/services' Component={services} />
-                    <Route path='*' Component={NotFound} />
+                    <Route exact path='/' component={home} />
+                    <Route exact path='/services' component={services} />
+                    <Route exact path='*' component={NotFound} />
                 </Switch>
-                <div>
-                    {this.props.children}
-                </div>
             </div>
                 );
 
