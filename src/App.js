@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import { BrowserRouter, Router } from 'react-router-dom';
-import rout from './route.js';
+import Rout from './route';
 import Footer from './Footer';
 import NewHead from './navigation.js';
 import './index.css';
@@ -28,7 +28,7 @@ export default class App extends Component {
                         <div className="margin">
                             <div className="Body">
                                 <BrowserRouter>
-                                    <rout />
+                                    <Rout />
                                 </BrowserRouter>
                             </div>
                         </div>

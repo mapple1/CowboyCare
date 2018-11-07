@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
 import './index.css';
 
-export default class routing extends Component {
+export default class rout extends Component {
 
     render() {
         const container = () => <div><NewHead /> {this.props.children}</div>;
