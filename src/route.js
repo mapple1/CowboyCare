@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
@@ -16,7 +16,7 @@ export default class routing extends Component {
         return (
             <Router history={hashHistory}>
                 <Route path='/' Component={container}>
-                    <IndexRoute Component={home} />
+                    <Route exact path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Route>
