@@ -55,7 +55,7 @@ class Navigation extends React.Component {
                             </div>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <a className="nav-link" href="/">Contact Us</a>
+                            <Link className="nav-link" to="/contact">Contact Us</Link>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>
