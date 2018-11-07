@@ -21,8 +21,8 @@ export default class App extends Component {
 
         return (
             <div className="BodyBackground">
-                    <div className="wrapper">
-                        <a className="header" href="/"><img className="Logo" src="logo.png" /></a>
+                <div className="wrapper">
+                    <div className="header"><div className="site-info"><img className="Logo" src="logo.png" /></div></div>
                         <div className="margin" /><NewHead />
                         <div className="Body">
                             <Home />
