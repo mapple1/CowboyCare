@@ -21,6 +21,9 @@ export default class rout extends Component {
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Switch>
+                <div>
+                    {this.props.children}
+                </div>
             </div>
                 );
 
