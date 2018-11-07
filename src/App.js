@@ -25,13 +25,13 @@ export default class App extends Component {
             <div>
             <div className="BodyBackground">
                     <div className="wrapper">
-                        <BrowserRouter>
+                        <HashRouter>
                         <div className="margin"><NewHead />
                             <div className="Body">
                                     <Rout />
                             </div>
                         </div>
-                        </BrowserRouter>
+                        </HashRouter>
                     </div>
                 </div>
                     <Footer />
