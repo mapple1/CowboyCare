@@ -14,13 +14,14 @@ export default class rout extends Component {
         const NotFound = () => <h1> You just got 404'd! </h1>;
 
         return (
-            <Route path='/' Component={container}>
+            <div>
+                <NewHead />
                 <Switch>
                     <Route path='/' Component={home} />
                     <Route path='/services' Component={services} />
                     <Route path='*' Component={NotFound} />
                 </Switch>
-                </Route>
+            </div>
                 );
 
 
