@@ -26,7 +26,7 @@ class Navigation extends React.Component {
 //</form>
     render() {
         return (
-            <nav id="navigation" className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="navigation" className="navbar navbar-expand navbar-light bg-light">
                 <a className="navbar-brand" href="/"><img className="Logo" src="logo.png" /></a>
                 <button id="button-toggle" className="navbar-toggler" onMouseOver={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={this.state.toggle}>
                     <span className="navbar-toggler-icon"></span>Menu
@@ -43,8 +43,8 @@ class Navigation extends React.Component {
                         <li id="basic-nav-dropdownFreq" className="nav-item active">
                             <a className="nav-link" href="/">Frequently Asked Questions</a>
                         </li>
-                        <li className="nav-item dropdown active">
-                            <a className="nav-link dropdown-toggle" href="/" id="basic-nav-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li className="nav-item dropdown active" id="basic-nav-dropdown">
+                            <a className="nav-link dropdown-toggle" href="/"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About Us
                              </a>
                             <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
