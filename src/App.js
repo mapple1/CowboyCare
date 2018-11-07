@@ -20,6 +20,7 @@ export default class App extends Component {
     render() {
 
         return (
+            <div>
             <div className="BodyBackground">
                 <div>
                     <div className="wrapper">
@@ -27,8 +28,8 @@ export default class App extends Component {
                         <div className="margin"/><NewHead />
                         <div className="Body"><Home /></div>
                     </div>
+                </div>
             </div>
-
             <Footer />
             </div>
         );
