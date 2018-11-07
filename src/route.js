@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Router, Route, hashHistory } from 'react-router';
+import { Router, Route} from 'react-router';
+import { HashRouter } from 'react-router-dom';
 import NewHead from './navigation.js';
 import Home from './Home.js';
 import Services from './services.js';
@@ -14,7 +15,7 @@ export default class routing extends Component {
         const NotFound = () => <h1> You just got 404'd! </h1>;
 
         return (
-            <Router history={hashHistory}>
+            <Router history={HashRouter}>
                 <Route path='/' Component={container}>
                     <Route exact path='/' Component={home} />
                     <Route path='/services' Component={services} />
