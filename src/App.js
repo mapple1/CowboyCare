@@ -23,18 +23,18 @@ export default class App extends Component {
 
         return (
             <div>
-                <BrowserRouter>
             <div className="BodyBackground">
                     <div className="wrapper">
                         <div className="margin"><NewHead />
                             <div className="Body">
-                                <rout />
+                                <BrowserRouter>
+                                    <rout />
+                                </BrowserRouter>
                             </div>
                         </div>
                     </div>
                 </div>
                     <Footer />
-                </BrowserRouter>
             </div>
         );
     }
