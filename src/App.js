@@ -14,20 +14,23 @@ export default class App extends Component {
         };
     }
 
-    //<div className="header"></div><div className="margin" />
+    //<div className="header"></div>
     displayName = App.name
 
     render() {
 
         return (
             <div className="BodyBackground">
-                <NewHead />
-                <div className="wrapper">
+                <div>
+                    <div className="wrapper">
                         
-                        <div className="Body">
+                        <div className="margin" /><NewHead />
+                        <div className="Body"><div className="container">
                             <Home />
                         </div>
+                            </div>
                     </div>
+            </div>
 
             <Footer />
             </div>
