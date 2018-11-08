@@ -30,32 +30,32 @@ class Navigation extends React.Component {
             <nav id="navigation" className="navbar navbar-expand-xl navbar-light bg-light">
                 <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
                 <button id="button-toggle" className="navbar-toggler" onMouseOver={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={this.state.toggle}>
-                    <span className="navbar-toggler-icon"></span>Menu
+                    <span className="navbar-toggler-icon"></span><h4 style={{color: "white"}}>Menu</h4>
                 </button>
 
                 <div className="collapse navbar-collapse" data-pa id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto" id="basic-nav-dropdownnav">
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to="/"><h4 style={{ color: "white" }}>Home</h4></Link>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/services">Services</Link>
+                            <Link className="nav-link" to="/services"><h4 style={{ color: "white" }}>Services</h4></Link>
                         </li>
                         <li id="basic-nav-dropdownFreq" className="nav-item active">
-                            <a className="nav-link" href="/">Frequently Asked Questions</a>
+                            <a className="nav-link" href="/"><h4 style={{ color: "white" }}>Frequently Asked Questions</h4></a>
                         </li>
                         <li className="nav-item dropdown active" id="basic-nav-dropdown">
                             <a className="nav-link dropdown-toggle" href="/"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                About Us
+                                <h4 style={{ color: "white" }}>About Us</h4>
                              </a>
                             <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
-                                <a id="menuItem" className="dropdown-item" href="/">Our Story</a>
-                                <a id="menuItem" className="dropdown-item" href="/">Our Care Specialists</a>
-                                <a id="menuItem" className="dropdown-item" href="/">Something else</a>
+                                <a id="menuItem" className="dropdown-item" href="/"><h4 style={{color: "white"}}>Our Story</h4></a>
+                                <a id="menuItem" className="dropdown-item" href="/"><h4 style={{color: "white"}}>Our Care Specialists</h4></a>
+                                <a id="menuItem" className="dropdown-item" href="/"><h4 style={{ color: "white" }}>Something else</h4></a>
                             </div>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/contact">Contact Us</Link>
+                            <Link className="nav-link" to="/contact"><h4 style={{ color: "white" }}>Contact Us</h4></Link>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>
