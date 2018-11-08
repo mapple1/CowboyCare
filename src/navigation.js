@@ -36,26 +36,26 @@ class Navigation extends React.Component {
                 <div className="collapse navbar-collapse" data-pa id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto" id="basic-nav-dropdownnav">
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" style={{ color: "white" }} to="/">Home</Link>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/services">Services</Link>
+                            <Link className="nav-link" style={{ color: "white" }} to="/services">Services</Link>
                         </li>
                         <li id="basic-nav-dropdownFreq" className="nav-item active">
-                            <a className="nav-link" href="/">Frequently Asked Questions</a>
+                            <a className="nav-link" style={{ color: "white" }} href="/">Frequently Asked Questions</a>
                         </li>
                         <li className="nav-item dropdown active" id="basic-nav-dropdown">
-                            <a className="nav-link dropdown-toggle" href="/"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" style={{ color: "white" }} href="/"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About Us
                              </a>
                             <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
-                                <a id="menuItem" className="dropdown-item" href="/">Our Story</a>
-                                <a id="menuItem" className="dropdown-item" href="/">Our Care Specialists</a>
-                                <a id="menuItem" className="dropdown-item" href="/">Something else</a>
+                                <a id="menuItem" className="dropdown-item"style={{color: "white"}} href="/">Our Story</a>
+                                <a id="menuItem" className="dropdown-item"style={{color: "white"}} href="/">Our Care Specialists</a>
+                                <a id="menuItem" className="dropdown-item" style={{ color: "white" }} href="/">Something else</a>
                             </div>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" to="/contact">Contact Us</Link>
+                            <Link className="nav-link" style={{ color: "white" }} to="/contact">Contact Us</Link>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>
