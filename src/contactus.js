@@ -6,7 +6,7 @@ export default class ContactUs extends Component {
     render() {
 
         return (
-            <div className="container">
+            <div className="container" style={{ marginTop: "10%" }}>
                 <form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain" >
                 Name:<br/>
                     <input id="name" type="text" name="name" /><br />
