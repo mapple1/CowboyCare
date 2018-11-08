@@ -90,9 +90,10 @@
     float: left;
     clear: both;
     position: absolute;
+    overflow: scroll;
     display: inline-block;
     background-image: url('background3.jpg');
-    background-size: auto;
+    background-size: 100%;
     background-repeat: repeat;
 }
 
