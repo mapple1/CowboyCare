@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './form-submission-handler';
+import * as utils from './form-submission-handler';
 
-export default class ContactUs extends React.Component {
+export default class ContactUs extends Component {
 
     constructor(props) {
         super(props);
@@ -12,14 +12,8 @@ export default class ContactUs extends React.Component {
     }
 
 
-    setState() {
+    onClick() {
         this.setState({ showThankYou: true });
-    }
-
-    onClick = (e) => {
-        setTimeout(function () {
-            this.setState({ showThankYou: true });
-        }, 100);
     }
 
     render() {
@@ -31,7 +25,7 @@ export default class ContactUs extends React.Component {
             <input id="email" type="text" name="email" /><br />
             Comment:<br />
             <input id="message" type="text" name="message" size="50" /><br /><br />
-            <div onClick={() => this.onClick()}><input type="submit" value="Send"/></div>
+            <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
             <input type="reset" value="Reset" />
         </form>);
 
