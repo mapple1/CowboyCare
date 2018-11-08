@@ -575,26 +575,22 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    background-color: #48d1cc;
-    border-color: #48d1cc;
     left: -1px;
     top: -6px;
     border-top: 6px solid transparent;
     border-bottom: 0px solid transparent;
-    border-right: 8px solid black;
+    border-right: 8px solid #48d1cc;
 }
 
 .corner-right {
     width: 0px;
     height: 0px;
     position: absolute;
-    background-color: #48d1cc;
-    border-color: #48d1cc;
     right: -1px;
     top: -6px;
     border-top: 6px solid transparent;
     border-bottom: 0px solid transparent;
-    border-left: 8px solid black;
+    border-left: 8px solid #48d1cc;
 }
 
 ::-webkit-scrollbar {
