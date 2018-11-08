@@ -22,7 +22,11 @@ export default class ContactUs extends Component {
 
     render() {
 
-        const form = (<form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain" >
+        const form = (<form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
+            style={{
+                borderRadius: "15px", padding: "36px 0px 36px 36px", backgroundColor: "white",
+                marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+            }}>
             Name:<br />
             <input id="name" type="text" name="name" /><br />
             E-mail:<br />
