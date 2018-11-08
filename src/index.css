@@ -576,6 +576,7 @@
     height: 0px;
     position: absolute;
     background-color: #48d1cc;
+    border-color: #48d1cc;
     left: -1px;
     top: -6px;
     border-top: 6px solid transparent;
@@ -588,6 +589,7 @@
     height: 0px;
     position: absolute;
     background-color: #48d1cc;
+    border-color: #48d1cc;
     right: -1px;
     top: -6px;
     border-top: 6px solid transparent;
