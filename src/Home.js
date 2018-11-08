@@ -13,7 +13,7 @@ export default class Home extends Component {
                 <p style={{
                     borderRadius: "15px",
                     alignContent: "center", textAlign: "center", padding: "padding: 36px 0px 36px 36px", backgroundColor: "white",
-                    marginLeft: "10%", marginRight: "10%", fontFamily: "Tahoma, Geneva, sans-serif"
+                    marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                 }}>
                     <h3 style={{
                         color: "#0066cc", fontFamily: "Georgia, serif" }}>Customized Care to Fit Your Needs</h3>
