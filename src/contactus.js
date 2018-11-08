@@ -32,7 +32,7 @@ export default class ContactUs extends Component {
             E-mail:<br />
             <input id="email" type="text" name="email" /><br />
             Comment:<br />
-            <input id="message" style={{ width: "25%", height: "20%" }} type="text" name="message" size="50" /><br /><br />
+            <input id="message" style={{ width: "75%", height: "75%" }} type="text" name="message" size="50" /><br /><br />
             <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
             <input type="reset" value="Reset" />
         </form>);
