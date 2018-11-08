@@ -93,7 +93,7 @@
     overflow: scroll;
     display: inline-block;
     background-image: url('back.jpg');
-    background-size: 100%;
+    background-size: auto;
     background-repeat: repeat;
 }
 
