@@ -38,15 +38,15 @@ export default class ContactUs extends Component {
 
     render() {
 
-        const form = (<form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
+        const form = (<form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
                 borderRadius: "15px", padding: "36px 0px 36px 36px", backgroundColor: "white",
                 marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
             }}>
             Name:<br />
-            <input id="name" type="text" name="name" /><br />
+            <input id="name" type="text" name="name" onKeyUp={this.keyPress.bind(this)} /><br />
             E-mail:<br />
-            <input id="email" type="text" name="email" /><br />
+            <input id="email" type="text" name="email" onKeyUp={this.keyPress.bind(this)} /><br />
             Comment:<br />
             <Textarea id="message" name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
             <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
