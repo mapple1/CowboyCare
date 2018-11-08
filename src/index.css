@@ -129,8 +129,8 @@
 }
 
 .text {
-    resize: vertical;
-    height: 150px;
+    resize: none;
+    height: 150px!important;
     width: 75%;
     max-height: 200px;
 }
