@@ -22,6 +22,11 @@ export default class Home extends Component {
                     <br />Trying to cause scroll with fixed footer
                     <br />Trying to cause scroll with fixed footer
                     <br />Trying to cause scroll with fixed footer
+                    <br />Trying to cause scroll with fixed footer
+                    <br />Trying to cause scroll with fixed footer
+                    <br />Trying to cause scroll with fixed footer
+                    <br />Trying to cause scroll with fixed footer
+                    <br />Trying to cause scroll with fixed footer
                 </p>
             </div>
             );
