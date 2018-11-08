@@ -16,7 +16,7 @@ export default class App extends Component {
         };
     }
 
-    //<div className="header"></div>
+    //<div className="header"></div><Footer />
     displayName = App.name
 
     render() {
@@ -34,7 +34,6 @@ export default class App extends Component {
                         </HashRouter>
                     </div>
                 </div>
-                    <Footer />
             </div>
         );
     }
