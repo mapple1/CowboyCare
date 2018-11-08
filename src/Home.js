@@ -17,21 +17,28 @@ export default class Home extends Component {
                 }}>
                     <h3 style={{
                         color: "#0066cc", fontFamily: "Georgia, serif" }}>Customized Care to Fit Your Needs</h3>
-                    visit <a style={{ textDecoration: "none", color: "saddlebrown" }} href="https://cowboy-care.netlify.com/#/services"> here.</a>
-                    <br />This is however just a test of what can be done for this site.
-                    <br />If you have questions about how things look here please contact me.
-                    <br />Otherwise this site was built for nothing.
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
-                    <br />Trying to cause scroll with fixed footer
+                    At Cowboy Care, our goal is to provide our valued clients with a wonderful alternative to an
+                    <br />assisted living environment, and we accomplish our goal by offering you customized home 
+                    <br />care services. We're committed to quality, because we care. Our caregivers are carefully
+                    <br />selected so that you receive excellent care in your home. Extensive national background 
+                    <br />checks are performed on new employees. We often participate in continuing education 
+                    <br />programs. You can rest assured that only qualified professionals will be serving your needs 
+                    <br />at home. A few of the services we provide to seniors include:<br />
+                    <ul>
+                        <li>24-hour care</li>
+                        <li>Flexible hourly care</li>
+                        <li>Care management</li>
+                        <li>Recovery assistance (illness, surgical, orthopedic)</li>
+                        <li>Personal assistance (hygiene and dressing)</li>
+                        <li>Errands and transportation</li>
+                        <li>Meal planning and preparation</li>
+                        <li>Light housekeeping</li>
+                        <li>Companionship</li>
+                        <li>Respite for caregivers</li>
+                    </ul>
+                    <br />With the compassionate home care services available to you through Cowboy Care, you can 
+                    <br />easily enjoy a comfortable life inside your home. We'll give you the support you need for all
+                    <br/>your daily activities, so call us today to learn more about our customizable care plans. 
                 </p>
             </div>
             );
