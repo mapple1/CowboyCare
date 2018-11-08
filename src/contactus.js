@@ -14,6 +14,7 @@ export default class ContactUs extends Component {
     }
 
     keyPress = event => {
+        event.preventDefault();
         //this.props.Mess.typingRequest();
         if (event.keyCode === 13) {
             const messageEnter = event.target.value + "\n";
