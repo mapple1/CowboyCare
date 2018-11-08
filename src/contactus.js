@@ -56,7 +56,7 @@ export default class ContactUs extends Component {
             <input id="email" type="text" name="email" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
             }} /><br />
-            Comment:<br />
+            Question:<br />
             <Textarea id="message" name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
             <input type="submit" value="Send" onClick={this.onClick.bind(this)} />
             <input type="reset" value="Reset" onClick={this.ResetForm.bind(this)} />
