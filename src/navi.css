@@ -1,6 +1,47 @@
 @media only screen and (max-width: 767px) {
 
     /* Theme iPhone */
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
+    .container {
+        display: inline-block;
+        background-color: transparent;
+        position: absolute;
+        max-width: 980px;
+        width: 100%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    }
 
     #wrap {
         padding: 0px 12px;
@@ -392,7 +433,7 @@
 
     .Body {
         height: 100%;
-        width: 70%;
+        width: 90%;
         margin-left: auto;
         margin-right: 5%;
         padding-left: 25%;
@@ -455,6 +496,47 @@
 @media only screen and (max-width: 480px) {
 
     /* Theme iPhone */
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
+    .container {
+        display: inline-block;
+        background-color: transparent;
+        position: absolute;
+        max-width: 980px;
+        width: 100%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+    }
 
     #wrap {
         padding: 0px 12px;
@@ -846,7 +928,7 @@
 
     .Body {
         height: 100%;
-        width: 70%;
+        width: 90%;
         margin-left: auto;
         margin-right: 5%;
         padding-left: 25%;
@@ -909,7 +991,27 @@
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
 
     /* Theme iPhone */
-
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
     #wrap {
         padding: 0px 12px;
         overflow: hidden;
@@ -1296,7 +1398,7 @@
 
     .Body {
         height: 100%;
-        width: 70%;
+        width: 90%;
         margin-left: auto;
         margin-right: 5%;
         padding-left: 25%;
@@ -1359,7 +1461,27 @@
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
     /* Theme iPhone */
-
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
     #wrap {
         padding: 0px 12px;
         overflow: hidden;
@@ -1747,7 +1869,7 @@
 
     .Body {
         height: 100%;
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: 5%;
         padding-left: 25%;
@@ -1810,7 +1932,27 @@
 @media only screen and (max-width: 979px) {
 
     /* Theme iPhone */
-
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
     #wrap {
         padding: 0px 12px;
         overflow: hidden;
@@ -2197,7 +2339,7 @@
 
     .Body {
         height: 100%;
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: 5%;
         padding-left: 25%;
@@ -2259,7 +2401,27 @@
 
 
 @media only screen and (max-width: 1199px) {
-
+    .horse {
+        height: auto;
+        width: 90%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-self: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+        -moz-border-radius: 0px 0px 0px 0px;
+        -khtml-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
+    }
     /* Theme iPhone */
 
     #wrap {

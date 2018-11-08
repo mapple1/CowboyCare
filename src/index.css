@@ -100,7 +100,7 @@
 .horse {
     height: auto;
     width: 90%;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
     margin-left: 5%;
     margin-right: 5%;
     justify-content: center;
