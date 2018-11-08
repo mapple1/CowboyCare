@@ -37,6 +37,10 @@ export default class ContactUs extends Component {
         //<input id="message" style={{ width: "75%", height: "auto" }} type="text" name="message" size="50" />
     }
 
+    ResetForm() {
+        this.setState({ Message: "" });
+    }
+
     render() {
 
         const form = (<form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
@@ -54,8 +58,8 @@ export default class ContactUs extends Component {
             }} /><br />
             Comment:<br />
             <Textarea id="message" name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
-            <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
-            <input type="reset" value="Reset" />
+            <input type="submit" value="Send" onClick={this.onClick.bind(this)} />
+            <input type="reset" value="Reset" onClick={this.ResetForm.bind(this)} />
         </form>);
 
         const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of our staff will contact you.</h3>)
