@@ -14,7 +14,7 @@ export default class ContactUs extends Component {
 
     onClick() {
         setTimeout(function () {
-            this.setState({ showThankYou: true });
+            this.setState({ showThankYou: true })
         }, 100);
     }
 
