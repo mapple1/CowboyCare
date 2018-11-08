@@ -3,10 +3,6 @@ import * as utils from './form-submission-handler';
 
 export default class ContactUs extends Component {
 
-    componentDidMount() {
-        utils.
-    }
-
     render() {
 
         return (
