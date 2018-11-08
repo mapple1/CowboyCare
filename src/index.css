@@ -565,7 +565,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: inherit!important;
+    box-sizing: none!important;
 }
 
 /*.dropdown:hover .menuItem {
