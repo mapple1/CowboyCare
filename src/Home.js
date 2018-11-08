@@ -24,7 +24,9 @@ export default class Home extends Component {
                     <br />checks are performed on new employees. We often participate in continuing education 
                     <br />programs. You can rest assured that only qualified professionals will be serving your needs 
                     <br />at home. A few of the services we provide to seniors include:<br />
-                    <ul>
+                    <ul style={{
+                        textAlign: "left"
+                    }}>
                         <li>24-hour care</li>
                         <li>Flexible hourly care</li>
                         <li>Care management</li>
