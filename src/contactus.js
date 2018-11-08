@@ -31,7 +31,7 @@ export default class ContactUs extends React.Component {
             <input id="email" type="text" name="email" /><br />
             Comment:<br />
             <input id="message" type="text" name="message" size="50" /><br /><br />
-            <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
+            <input type="submit" value="Send" onSubmit={this.onClick.bind(this)} />
             <input type="reset" value="Reset" />
         </form>);
 
