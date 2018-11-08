@@ -11,9 +11,16 @@ export default class ContactUs extends Component {
         };
     }
 
+    set() {
+        this.setState({ showThankYou: true });
+    }
+
 
     onClick() {
-        this.setState({ showThankYou: true });
+
+        setTimeout(set, 100);
+
+        //this.setState({ showThankYou: true });
     }
 
     render() {
