@@ -29,7 +29,7 @@ class Navigation extends React.Component {
         return (
             <nav id="navigation" className="navbar navbar-expand-xl navbar-light bg-light">
                 <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
-                <button id="button-toggle" className="navbar-toggler" onMouseOver={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={this.state.toggle}>
+                <button id="button-toggle" style={{color: "white"}} className="navbar-toggler" onMouseOver={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={this.state.toggle}>
                     <span className="navbar-toggler-icon"></span>Menu
                 </button>
 
