@@ -22,6 +22,11 @@
         -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
         -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
+
+    .para {
+        padding: 0px 0px 0px 0px !important;
+    }
+
     .container {
         display: inline-block;
         background-color: transparent;
@@ -517,6 +522,11 @@
         -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
         -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
+
+    .para {
+        padding: 0px 0px 0px 0px!important;
+    }
+
     .container {
         display: inline-block;
         background-color: transparent;
@@ -1482,6 +1492,11 @@
         -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
         -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
+
+    .para {
+        padding: 0px 0px 0px 0px !important;
+    }
+
     #wrap {
         padding: 0px 12px;
         overflow: hidden;
