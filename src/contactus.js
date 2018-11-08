@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import './form-submission-handler';
+import * as utils from './form-submission-handler';
 
 export default class ContactUs extends Component {
+
+    componentDidMount() {
+        utils.
+    }
 
     render() {
 

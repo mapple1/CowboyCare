@@ -107,11 +107,14 @@
     function loaded() {
         console.log("Contact form submission handler loaded successfully.");
         // bind to the submit event of our form
-        var forms = document.querySelectorAll(".gform");
-        for (var i = 0; i < forms.length; i++) {
-            forms[i].addEventListener("submit", handleFormSubmit, false);
-            console.log("Contact form submission handler loaded successfully 2.");
-        }
+
+        window.setInterval(function () {
+            var forms = document.querySelectorAll(".gform");
+            for (var i = 0; i < forms.length; i++) {
+                forms[i].addEventListener("submit", handleFormSubmit, false);
+                console.log("Contact form submission handler loaded successfully 2.");
+            }
+        }, 200);
     };
     document.addEventListener("DOMContentLoaded", loaded, false);
 
