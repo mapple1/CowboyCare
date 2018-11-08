@@ -100,9 +100,9 @@
 .horse {
     height: auto;
     width: 90%;
+    border-radius: 15px;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 36px 0px 36px 36px;
     justify-content: center;
     align-self: center;
 }
