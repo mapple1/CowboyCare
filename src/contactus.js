@@ -33,7 +33,7 @@ export default class ContactUs extends Component {
             <input type="reset" value="Reset" />
         </form>);
 
-        const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of out staff will contact you.</h3>)
+        const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of our staff will contact you.</h3>)
 
         return (
             <div className="container" style={{ marginTop: "10%" }}>
