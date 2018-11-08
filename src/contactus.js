@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import * as utils from './form-submission-handler';
+import './form-submission-handler';
 
-export default class ContactUs extends Component {
+export default class ContactUs extends React.Component {
 
     constructor(props) {
         super(props);
@@ -16,9 +16,9 @@ export default class ContactUs extends Component {
         this.setState({ showThankYou: true });
     }
 
-    onClick() {
+    onClick = () => {
         setTimeout(function () {
-            setState();
+            this.setState({ showThankYou: true });
         }, 100);
     }
 
