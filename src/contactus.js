@@ -17,7 +17,7 @@ export default class ContactUs extends Component {
         event.preventDefault();
         //this.props.Mess.typingRequest();
         if (event.keyCode === 13) {
-            const messageEnter = event.target.value + "\n";
+            const messageEnter = event.target.value;// + "\n"
             this.setState({ Message: messageEnter });
         }
     }
