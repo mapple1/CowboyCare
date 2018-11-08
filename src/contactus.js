@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import * as utils from './form-submission-handler';
+import Textarea from 'react-textarea-autosize';
+import './form-submission-handler';
 
 export default class ContactUs extends Component {
 
@@ -7,8 +8,22 @@ export default class ContactUs extends Component {
         super(props);
 
         this.state = {
-            showThankYou: false
+            showThankYou: false,
+            Message: ""
         };
+    }
+
+    keyPress = event => {
+        //this.props.Mess.typingRequest();
+        if (event.keyCode === 13) {
+            const messageEnter = event.target.value + "\n";
+            this.setState({ Message: messageEnter });
+        }
+    }
+
+    handleChange = event => {
+        event.preventDefault();
+        this.setState({ Message: event.target.value, [event.target.id]: event.target.value });
     }
 
     onClick() {
@@ -32,7 +47,8 @@ export default class ContactUs extends Component {
             E-mail:<br />
             <input id="email" type="text" name="email" /><br />
             Comment:<br />
-            <input id="message" style={{ width: "75%", height: "75%" }} type="text" name="message" size="50" /><br /><br />
+            <input id="message" style={{ width: "75%", height: "auto" }} onKeyUp={this.keyPress.bind(this)} type="text" name="message" size="50" /><br /><br />
+            <Textarea value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} />
             <input type="submit" value="Send" onClick={this.onClick.bind(this)}/>
             <input type="reset" value="Reset" />
         </form>);
