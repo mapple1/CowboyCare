@@ -89,6 +89,7 @@
     width: 100%;
     float: left;
     clear: both;
+    margin-bottom: 2px;
     position: absolute;
     display: inline-block;
     background-image: url('background3.jpg');
