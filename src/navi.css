@@ -15,6 +15,12 @@
         padding: 0px 0px 0px 0px !important;
         margin-left: 0px;
         margin-right: 0px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(#48d1cc));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
     }
     .container {
         display: inline-block;
@@ -504,9 +510,15 @@
     }
 
     .para {
-        padding: 0px 0px 0px 0px!important;
+        padding: 0px 0px 0px 0px !important;
         margin-left: 0px;
         margin-right: 0px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(#48d1cc));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
     }
 
     .container {
@@ -1469,6 +1481,12 @@
 
     .para {
         padding: 0px 0px 0px 0px !important;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(#48d1cc));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
     }
 
     #wrap {
