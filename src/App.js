@@ -26,6 +26,7 @@ export default class App extends Component {
             <div className="BodyBackground">
                     <div className="wrapper">
                         <HashRouter>
+                            <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
                         <div className="margin"><NewHead />
                             <div className="Body">
                                     <Rout />
