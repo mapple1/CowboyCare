@@ -3,8 +3,8 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 0;
         margin-right: 0;
         justify-content: center;
@@ -15,37 +15,20 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
 
     .para {
         padding: 0px 0px 0px 0px !important;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-
     .container {
         display: inline-block;
         background-color: transparent;
         position: absolute;
         max-width: 980px;
-        width: 60%;
+        width: 80%;
         border-radius: 0px;
-        -moz-border-radius: 0px;
-        -khtml-border-radius: 0px;
-        -webkit-border-radius: 0px;
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
     }
 
     #wrap {
@@ -138,6 +121,21 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -279,7 +277,7 @@
             font-family: 'FontAwesome';
             content: ' ';
             top: 1px;
-            margin-right: 6px;
+            margin-right: 0px;
             position: relative;
         }
 
@@ -503,8 +501,8 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 0;
         margin-right: 0;
         justify-content: center;
@@ -515,16 +513,12 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
 
     .para {
         padding: 0px 0px 0px 0px!important;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .container {
@@ -532,20 +526,8 @@
         background-color: transparent;
         position: absolute;
         max-width: 980px;
-        width: 60%;
+        width: 80%;
         border-radius: 0px;
-        -moz-border-radius: 0px;
-        -khtml-border-radius: 0px;
-        -webkit-border-radius: 0px;
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .08);
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
     }
 
     #wrap {
@@ -638,6 +620,20 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -1003,8 +999,8 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 5%;
         margin-right: 5%;
         justify-content: center;
@@ -1015,12 +1011,6 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
     #wrap {
         padding: 0px 12px;
@@ -1112,6 +1102,20 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -1411,7 +1415,7 @@
         width: 90%;
         margin-left: auto;
         margin-right: 5%;
-        padding-left: 25%;
+        padding-left: 17%;
         background-color: transparent;
         text-align: left;
         display: inline-block;
@@ -1473,8 +1477,8 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 1%;
         margin-right: 1%;
         justify-content: center;
@@ -1485,12 +1489,6 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
 
     .para {
@@ -1601,6 +1599,21 @@
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
 
+    #navigation2 {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
     .corner-left,
     .corner-right {
         display: none;
@@ -1887,7 +1900,7 @@
         width: 80%;
         margin-left: auto;
         margin-right: 1%;
-        padding-left: 10%;
+        padding-left: 17%;
         background-color: transparent;
         text-align: left;
         display: inline-block;
@@ -1949,8 +1962,8 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 5%;
         margin-right: 5%;
         justify-content: center;
@@ -1961,12 +1974,6 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
     #wrap {
         padding: 0px 12px;
@@ -2058,6 +2065,21 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -2357,7 +2379,7 @@
         width: 80%;
         margin-left: auto;
         margin-right: 5%;
-        padding-left: 25%;
+        padding-left: 17%;
         background-color: transparent;
         text-align: left;
         display: inline-block;
@@ -2418,8 +2440,8 @@
 @media only screen and (max-width: 1199px) {
     .horse {
         height: auto;
-        width: 90%;
-        border-radius: 15px 15px 15px 15px;
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
         margin-left: 5%;
         margin-right: 5%;
         justify-content: center;
@@ -2430,12 +2452,6 @@
         background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
         background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
-        -moz-border-radius: 0px 0px 0px 0px;
-        -khtml-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
-        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .4);
     }
     /* Theme iPhone */
 
@@ -2529,6 +2545,21 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -2828,7 +2859,7 @@
         width: 70%;
         margin-left: auto;
         margin-right: 5%;
-        padding-left: 25%;
+        padding-left: 17%;
         background-color: transparent;
         text-align: left;
         display: inline-block;

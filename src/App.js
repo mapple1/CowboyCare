@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import { BrowserRouter, Router, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Router, HashRouter, Link } from 'react-router-dom';
 import Rout from './route';
 import Footer from './Footer';
 import NewHead from './navigation.js';
@@ -12,11 +12,26 @@ export default class App extends Component {
         super(props);
 
         this.state = {
-            view: "Home"
+            view: "Home",
+            value: ""
         };
     }
 
+    handleChange = event => {
+        event.preventDefault();
+        this.setState({ value: event.target.value });
+    }
+
     //<div className="header"></div><Footer />
+
+    
+//                                    <div className="web-search">
+//    <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/#/">
+//        <input type="search" onChange={this.handleChange.bind(this)} className="searchfield" placeholder="Search Here" value={this.state.value}
+//            name="s" title="Search for:" />
+//        <input type="submit" id="searchsubmit" value="Go" />
+//    </form>
+//</div>
     displayName = App.name
 
     render() {
@@ -26,7 +41,13 @@ export default class App extends Component {
             <div className="BodyBackground">
                     <div className="wrapper">
                         <HashRouter>
-                        <div className="margin"><NewHead />
+                            <div className="margin">
+                                <div className="site-info">
+                                    <div id="navigation2">
+                                        <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
+                                    </div>
+                                </div>
+                                <NewHead />
                             <div className="Body">
                                     <Rout />
                             </div>
