@@ -80,7 +80,7 @@ export default class ContactUs extends Component {
 
         return (
             <div className="container" style={{ marginTop: "10%" }}>
-                <img className="horse" src="wyoheart.pdn" />
+                <img className="horse" src="wyoheart.png" />
                 {this.state.showThankYou ? thanks : form}
                 </div>
             );
