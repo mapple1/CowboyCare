@@ -25,8 +25,9 @@
 
     .para {
         padding: 0px 0px 0px 0px !important;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-
     .container {
         display: inline-block;
         background-color: transparent;
@@ -279,7 +280,7 @@
             font-family: 'FontAwesome';
             content: ' ';
             top: 1px;
-            margin-right: 6px;
+            margin-right: 0px;
             position: relative;
         }
 
@@ -525,6 +526,8 @@
 
     .para {
         padding: 0px 0px 0px 0px!important;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .container {
