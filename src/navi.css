@@ -3,7 +3,7 @@
     /* Theme iPhone */
     .horse {
         height: auto;
-        width: 100%!important;
+        width: 80%;
         border-radius: 15px 15px 0px 0px;
         margin-left: 0;
         margin-right: 0;
@@ -14,7 +14,6 @@
     .para {
         padding: 0px 0px 0px 0px !important;
         margin-left: 0px;
-        width: 100%!important;
         margin-right: 0px;
         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(#48d1cc));
         background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
@@ -28,7 +27,7 @@
         background-color: transparent;
         position: absolute;
         max-width: 980px;
-        width: 100%;
+        width: 80%;
         border-radius: 0px;
     }
 
@@ -125,9 +124,8 @@
         background-color: transparent;
         position: relative;
         top: auto;
-        width: 100%;
         margin: 0px 0px 0px 0px;
-        padding-left: 0!important;
+        padding-left: 25%;
         border-radius: 0px;
         -moz-border-radius: 0px;
         -khtml-border-radius: 0px;
@@ -141,9 +139,8 @@
         background-color: transparent;
         position: relative;
         top: auto;
-        width: 100%;
         margin: 0px 0px 0px 0px;
-        padding-left: 0!important;
+        padding-left: 25%;
         border-radius: 0px;
         -moz-border-radius: 0px;
         -khtml-border-radius: 0px;
@@ -439,7 +436,7 @@
 
     .Body {
         height: 100%;
-        width: 100%!important;
+        width: 90%;
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
@@ -529,7 +526,7 @@
         background-color: transparent;
         position: absolute;
         max-width: 980px;
-        width: 100%!important;
+        width: 80%;
         border-radius: 0px;
     }
 
@@ -627,7 +624,7 @@
         position: relative;
         top: auto;
         margin: 0px 0px 0px 0px;
-        padding-left: 0!important;
+        padding-left: 25%;
         border-radius: 0px;
         -moz-border-radius: 0px;
         -khtml-border-radius: 0px;
@@ -641,7 +638,7 @@
         position: relative;
         top: auto;
         margin: 0px 0px 0px 0px;
-        padding-left: 0!important;
+        padding-left: 25%;
         border-radius: 0px;
         -moz-border-radius: 0px;
         -khtml-border-radius: 0px;
@@ -1004,8 +1001,8 @@
         height: auto;
         width: 80%;
         border-radius: 15px 15px 0px 0px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 5%;
+        margin-right: 5%;
         justify-content: center;
         align-self: center;
     }
