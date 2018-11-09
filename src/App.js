@@ -16,6 +16,11 @@ export default class App extends Component {
         };
     }
 
+    handleChange = event => {
+        event.preventDefault();
+        this.setState({ [event.target.id]: event.target.value });
+    }
+
     //<div className="header"></div><Footer />
     displayName = App.name
 
@@ -33,7 +38,7 @@ export default class App extends Component {
                                     </div>
                                     <div className="web-search">
                                         <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/">
-                                            <input type="search" className="searchfield" placeholder="Search Here" value
+                                            <input type="search" onChange={this.handleChange.bind(this)} className="searchfield" placeholder="Search Here" value
                                                 name="s" title="Search for:" />
                                             <input type="submit" id="searchsubmit" value="Go" />
                                         </form>

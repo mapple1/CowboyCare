@@ -45,7 +45,7 @@ export default class ContactUs extends Component {
 
         const form = (<form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
-                borderRadius: "15px", padding: "0px 0px 0px 0px", backgroundColor: "white",
+                borderRadius: "15px", padding: "3%", backgroundColor: "white",
                 marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
             }}>
             Name:<br />
