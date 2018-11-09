@@ -58,6 +58,7 @@
 .web-search {
     display: inline-block;
     position:absolute;
+    right: 20%;
 }
 
     .web-search #searchform {
