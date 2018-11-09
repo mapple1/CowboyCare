@@ -13,7 +13,7 @@ export default class Home extends Component {
                 <p className="para" style={{
                     borderRadius: "15px",
                     alignContent: "center", textAlign: "center", padding: "36px 0px 36px 36px", backgroundColor: "white",
-                    marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+                    marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "80%"
                 }}>
                     <h3 style={{
                         color: "#0066cc", fontFamily: "Georgia, serif" }}>Customized Care to Fit Your Needs</h3>
