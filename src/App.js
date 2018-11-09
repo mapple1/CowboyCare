@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import { BrowserRouter, Router, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Router, HashRouter, Link } from 'react-router-dom';
 import Rout from './route';
 import Footer from './Footer';
 import NewHead from './navigation.js';
