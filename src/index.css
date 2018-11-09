@@ -398,8 +398,8 @@
 .dropdown {
     display: table;
     position: relative;
-    border-left: 1px groove black;
-    border-right: 1px groove black;
+    border-left: 1px groove saddlebrown;
+    border-right: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -470,8 +470,8 @@
 
 #navbarSupportedContent {
     position: relative;
-    border-left: 1px groove black;
-    border-right: 1px groove black;
+    border-left: 1px groove saddlebrown;
+    border-right: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -501,8 +501,8 @@
 #basic-nav-dropdown {
     display: table;
     position: relative;
-    border-left: 1px groove black;
-    border-right: 1px groove black;
+    border-left: 1px groove saddlebrown;
+    border-right: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -532,8 +532,8 @@
 #basic-nav-dropdownFreq {
     display: table;
     position: relative;
-    border-left: 1px groove black;
-    border-right: 1px groove black;
+    border-left: 1px groove saddlebrown;
+    border-right: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     font-size: 15px;
