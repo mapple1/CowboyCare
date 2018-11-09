@@ -211,6 +211,7 @@
 
 .gform {
     background-color: white;
+    width: 80%;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 0px;
     -khtml-border-radius: 0px;
