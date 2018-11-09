@@ -49,15 +49,15 @@ export default class ContactUs extends Component {
                 marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
             }}>
             Name:<br />
-            <input id="name" type="text" name="name" onKeyPress={e => {
+            <input id="name" required type="text" name="name" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             E-mail:<br />
-            <input id="email" type="text" name="email" onKeyPress={e => {
+            <input id="email" required type="text" name="email" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
-            <Textarea id="message" name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
+            <Textarea id="message" required name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
             <input type="submit" value="Send" onClick={this.onClick.bind(this)} />
             <input type="reset" value="Clear" onClick={this.ResetForm.bind(this)} />
         </form>);
