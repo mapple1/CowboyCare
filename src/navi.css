@@ -1004,8 +1004,8 @@
         height: auto;
         width: 80%;
         border-radius: 15px 15px 0px 0px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0;
+        margin-right: 0;
         justify-content: center;
         align-self: center;
     }
