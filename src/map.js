@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
-import "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap";
 
 export default class Mapping extends Component {
+
+
+    componentWillMount() {
+        var scr = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap";
+        this.loadScript(scr).bind(this);
+    }
+
+
+    loadScript(src) {
+        var tag = document.createElement('script');
+        tag.async = true;
+        tag.defer = true;
+        tag.src = src;
+        document.getElementsByTagName('body').appendChild(tag);
+    }
 
     initMap() {
     // Create the map.
