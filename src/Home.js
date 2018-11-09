@@ -12,7 +12,7 @@ export default class Home extends Component {
                 <img className="horse" src="horse.jpg" />
                 <p className="para" style={{
                     borderRadius: "0px 0px 15px 15px",
-                    alignContent: "center", textAlign: "center", padding: "36px 0px 36px 36px", backgroundColor: "white",
+                    alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px", backgroundColor: "white",
                     marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "80%"
                 }}>
                     <h3 style={{
