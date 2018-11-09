@@ -313,7 +313,7 @@
 .home {
     display: table;
     position: relative;
-    border: 1px groove black;
+    border: 1px groove saddlebrown;
     bottom: 0;
     margin-top: 45px;
     text-align: center;
@@ -359,7 +359,7 @@
 .filler {
     display: table;
     position: relative;
-    border: 1px groove black;
+    border: 1px groove saddlebrown;
     margin: auto;
     bottom: 0;
     margin-top: 45px;
@@ -373,7 +373,7 @@
 .freq {
     display: table;
     position: relative;
-    border: 1px groove black;
+    border: 1px groove saddlebrown;
     bottom: 0;
     margin-top: 45px;
     text-align: center;
@@ -435,7 +435,7 @@
 }
 
 #basic-nav-dropdownnav {
-    border: 1px groove black;
+    border: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     bottom: 0;
@@ -596,7 +596,7 @@
 #menuItem {
     display: none;
     position: relative;
-    border: 1px groove black;
+    border: 1px groove saddlebrown;
     text-decoration: none;
     color: black;
     font-size: 15px;
