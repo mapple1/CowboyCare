@@ -79,7 +79,7 @@ export default class ContactUs extends Component {
         const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of our staff will contact you.</h3>)
 
         return (
-            <div className="container" style={{ marginTop: "10%" }}>
+            <div className="container">
                 <img className="horse" src="wyoheart.png" />
                 {this.state.showThankYou ? thanks : form}
                 </div>
