@@ -179,7 +179,7 @@
 
 .horse {
     height: auto;
-    width: 90%;
+    width: 80%;
     border-radius: 15px 15px 15px 15px;
     margin-left: 5%;
     margin-right: 5%;
@@ -455,7 +455,7 @@
     background-color: transparent;
     position: absolute;
     max-width: 980px;
-    width: 50%;
+    width: 80%;
     border-radius: 0px;
     -moz-border-radius: 0px;
     -khtml-border-radius: 0px;

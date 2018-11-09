@@ -23,6 +23,15 @@ export default class App extends Component {
     }
 
     //<div className="header"></div><Footer />
+
+    
+//                                    <div className="web-search">
+//    <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/#/">
+//        <input type="search" onChange={this.handleChange.bind(this)} className="searchfield" placeholder="Search Here" value={this.state.value}
+//            name="s" title="Search for:" />
+//        <input type="submit" id="searchsubmit" value="Go" />
+//    </form>
+//</div>
     displayName = App.name
 
     render() {
@@ -36,13 +45,6 @@ export default class App extends Component {
                                 <div className="site-info">
                                     <div id="navigation2">
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
-                                    </div>
-                                    <div className="web-search">
-                                        <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/#/">
-                                            <input type="search" onChange={this.handleChange.bind(this)} className="searchfield" placeholder="Search Here" value={this.state.value}
-                                                name="s" title="Search for:" />
-                                            <input type="submit" id="searchsubmit" value="Go" />
-                                        </form>
                                     </div>
                                 </div>
                                 <NewHead />
