@@ -31,6 +31,13 @@ export default class App extends Component {
                                     <div id="navigation2">
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
                                     </div>
+                                    <div className="web-search">
+                                        <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/">
+                                            <input type="search" className="searchfield" placeholder="Search Here" value
+                                                name="s" title="Search for:" />
+                                            <input type="submit" id="searchsubmit" value="Go" />
+                                        </form>
+                                    </div>
                                 </div>
                                 <NewHead />
                             <div className="Body">

@@ -17,6 +17,56 @@
         overflow-x: hidden;
     }
 
+#searchform {
+    margin: 12px 0px 0px 0px;
+    padding: 0px;
+}
+
+    #searchform label {
+        display: none;
+    }
+
+    #searchform .searchfield,
+    #searchform #s {
+        float: left;
+        color: #666666;
+        width: 74%;
+        height: 36px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1em;
+        text-indent: 8px;
+        line-height: 1.2;
+        margin: 0px;
+        padding: 0px !important;
+    }
+
+#searchsubmit {
+    float: right;
+    background: #F9F9F9;
+    color: #666666;
+    width: 20%;
+    height: 36px;
+    min-width: 42px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 6px 3% !important;
+    box-sizing: border-box;
+}
+
+.web-search {
+    display: block;
+}
+
+    .web-search #searchform {
+        margin: 0px;
+    }
+
+        .web-search #searchform .searchfield {
+            background: #FFFFFF;
+        }
+
 #navigation {
     float: left;
     background-color: transparent;
