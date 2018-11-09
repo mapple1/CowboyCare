@@ -38,7 +38,7 @@ export default class App extends Component {
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
                                     </div>
                                     <div className="web-search">
-                                        <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/">
+                                        <form method="get" id="searchForm" action="https://cowboy-care.netlify.com/#/">
                                             <input type="search" onChange={this.handleChange.bind(this)} className="searchfield" placeholder="Search Here" value={this.state.value}
                                                 name="s" title="Search for:" />
                                             <input type="submit" id="searchsubmit" value="Go" />
