@@ -147,6 +147,21 @@
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
 
+    #navigation2 {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 30%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
         .corner-left,
         .corner-right {
             display: none;
@@ -642,6 +657,20 @@
         -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
+    #navigation2 {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 30%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
 
     .corner-left,
     .corner-right {
@@ -1097,6 +1126,20 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
@@ -1580,6 +1623,21 @@
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
 
+    #navigation2 {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
     .corner-left,
     .corner-right {
         display: none;
@@ -2045,6 +2103,21 @@
         -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
     }
 
+    #navigation2 {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 25%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
     .corner-left,
     .corner-right {
         display: none;
@@ -2496,6 +2569,21 @@
     }
 
     #navigation {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        margin: 0px 0px 0px 0px;
+        padding-left: 30%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .1);
+    }
+
+    #navigation2 {
         background-color: transparent;
         position: relative;
         top: auto;
