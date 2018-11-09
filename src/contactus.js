@@ -9,7 +9,9 @@ export default class ContactUs extends Component {
 
         this.state = {
             showThankYou: false,
-            Message: ""
+            Message: "",
+            name: "",
+            email: ""
         };
     }
 
@@ -22,9 +24,21 @@ export default class ContactUs extends Component {
         }
     }
 
+    validateForm() {
+        return this.state.name.length > 0 && this.state.email.length > 0;
+    }
+
     handleChange = event => {
         event.preventDefault();
         this.setState({ Message: event.target.value, [event.target.id]: event.target.value });
+    }
+    handleName = event => {
+        event.preventDefault();
+        this.setState({ name: event.target.value, [event.target.id]: event.target.value });
+    }
+    handleEmail = event => {
+        event.preventDefault();
+        this.setState({ email: event.target.value, [event.target.id]: event.target.value });
     }
 
     onClick() {
@@ -49,16 +63,16 @@ export default class ContactUs extends Component {
                 marginLeft: "5%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
             }}>
             Name:<br />
-            <input id="name" required type="text" name="name" onKeyPress={e => {
+            <input id="name" value={this.state.name} onChange={this.handleName.bind(this)} required type="text" name="name" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             E-mail:<br />
-            <input id="email" required type="text" name="email" onKeyPress={e => {
+            <input id="email" value={this.state.email} onChange={this.handleEmail.bind(this)} required type="text" name="email" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
             <Textarea id="message" required name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
-            <input type="submit" value="Send" onClick={this.onClick.bind(this)} />
+            <input type="submit" disabled={!this.validateForm()} value="Send" onClick={this.onClick.bind(this)} />
             <input type="reset" value="Clear" onClick={this.ResetForm.bind(this)} />
         </form>);
 
