@@ -72,8 +72,8 @@ export default class ContactUs extends Component {
             }} /><br />
             Questions:<br />
             <Textarea id="message" required name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
-            <input type="submit" disabled={!this.validateForm()} value="Send" onClick={this.onClick.bind(this)} />
-            <input type="reset" value="Clear" onClick={this.ResetForm.bind(this)} />
+            <input type="submit" className="button-toggle" disabled={!this.validateForm()} value="Send" onClick={this.onClick.bind(this)} />
+            <input type="reset" className="button-toggle" value="Clear" onClick={this.ResetForm.bind(this)} />
         </form>);
 
         const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of our staff will contact you.</h3>)
