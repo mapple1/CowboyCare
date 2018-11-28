@@ -2594,6 +2594,10 @@
         margin-top: 0;
     }
 
+    #address {
+        display: block;
+    }
+
     .corner-left,
     .corner-right {
         display: none;
