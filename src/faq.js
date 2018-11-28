@@ -30,7 +30,7 @@ export default class Freq extends Component {
                             education to ensure just that.</li>
                         <li><b>Do you provide round-the-clock care?</b> We can provide care 24 hours a day 7 days a week, including holidays
                             and weekends.</li>
-                        <li><b>What about Flexible scheduling and low minimums?</b> Most agencies require large amounts of time be
+                        <li><b>What about flexible scheduling and low minimums?</b> Most agencies require large amounts of time be
                             scheduled. Cowboy Care has a two-hour minimum visit time so that you aren&#8217;t stuck paying for
                             more than what you really need and want.</li>
                         <li><b>Are you local to Platte County?</b> Cowboy Care is locally owned and operated. We are not part of a chain or
