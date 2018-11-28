@@ -20,7 +20,7 @@ export default class Home extends Component {
                     Cowboy Care is the only locally owned and managed home care agency in Platte County, Wyoming.
                     We serve the residents of Platte County and beyond and we are proud to call this area home.
                     Cowboy Care is not a franchise or part of a chain. The owners are local residents and our
-                    caregivers are your neighbors who care about you. You can rely on Cowboy DCare for responsive,
+                    caregivers are your neighbors who care about you. You can rely on Cowboy Care for responsive,
                     compassionate and thorough care for your current and future needs. Make us your first choice
                     and you will be glad you did every step of the way.<br />
                     <b>Our Mission:</b><br />
