@@ -8,9 +8,7 @@ export default class About extends Component {
 
         return (
             <div className="container">
-                <table>
-                    <tr>
-                        <td>
+                <div>
                     <p className="para" style={{
                     borderRadius: "0px 0px 15px 15px",
                     alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
@@ -33,34 +31,32 @@ export default class About extends Component {
                     County, Wyoming with a deep concern for our
                     community as well as the surrounding areas.
                     </p>
-                        </td>
-                        <td>
-                            <p className="para" style={{
-                                borderRadius: "0px 0px 15px 15px",
-                                alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
-                                marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "80%"
-                            }}>
-                                <h3 style={{
-                                    color: "#0066cc", fontFamily: "Georgia, serif"
-                                }}>Kris</h3>
-                                My name is Kris Loeffelbein, BSN, RN. In 2005,
-                                my husband and I chose Wheatland, Wyoming
-                                as our retirement home because of the obvious
-                                amazing landscape, but more importantly the
-                                amazing old fashioned cowboy culture. I am
-                                proud to have crossed paths with Michelle. We
-                                both have a deep desire to serve our
-                                community and have identified a void in home
-                                services for our community members. As a rural
-                                community we have limited access to
-                                resources. That is why we have partnered
-                                together to form a strong partnership in
-                                Cowboy Care to serve our community and
-                                provide excellent care with the utmost integrity.
+                 </div>
+                 <div>
+                    <p className="para" style={{
+                        borderRadius: "0px 0px 15px 15px",
+                        alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
+                        marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "80%"
+                    }}>
+                        <h3 style={{
+                            color: "#0066cc", fontFamily: "Georgia, serif"
+                        }}>Kris</h3>
+                        My name is Kris Loeffelbein, BSN, RN. In 2005,
+                        my husband and I chose Wheatland, Wyoming
+                        as our retirement home because of the obvious
+                        amazing landscape, but more importantly the
+                        amazing old fashioned cowboy culture. I am
+                        proud to have crossed paths with Michelle. We
+                        both have a deep desire to serve our
+                        community and have identified a void in home
+                        services for our community members. As a rural
+                        community we have limited access to
+                        resources. That is why we have partnered
+                        together to form a strong partnership in
+                        Cowboy Care to serve our community and
+                        provide excellent care with the utmost integrity.
                     </p>
-                        </td>
-                        </tr>
-                    </table>
+                </div>
             </div>
         );
     }
