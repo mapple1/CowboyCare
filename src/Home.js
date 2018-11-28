@@ -54,7 +54,7 @@ export default class Home extends Component {
                             and we will make every effort to meet your needs while working within your schedule and budget.</li>
                     </ul><br/>
                     <b>The differences between home health services and private duty services:</b><br />
-                    <table style={{ width: "100%", textAlign: "left", border: "1px", borderColor: "black" }}>
+                    <table style={{ width: "100%", textAlign: "left" }}>
                         <tr>
                             <th>Cowboy Care Home Care at a glance</th>
                             <th>Home Health-Skilled Care</th>
