@@ -45,9 +45,9 @@ class Navigation extends React.Component {
                             <a className="nav-link" style={{ color: "white", fontWeight: "bold"  }} href="/">Frequently Asked Questions</a>
                         </li>
                         <li className="nav-item dropdown active" id="basic-nav-dropdown">
-                            <a className="nav-link dropdown-toggle" style={{ color: "white", fontWeight: "bold"  }} href="/"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" style={{ color: "white", fontWeight: "bold"  }} to="/aboutus"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About Us
-                             </a>
+                             </Link>
                             <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
                                 <a id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} href="/">Our Story</a>
                                 <a id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} href="/">Our Care Specialists</a>
