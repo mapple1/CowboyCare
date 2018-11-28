@@ -58,7 +58,9 @@ export default class ContactUs extends Component {
     render() {
 
         const form = (
-            <div><p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC<br/> 1560 Johnston Street <br/>Wheatland, WY 82201<br/> 307-269-0655</p>
+            <div><p className="para" style={{
+                color: "white", fontWeight: "bold", borderRadius: "15px", padding: "3%",
+                marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"}}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
             <form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
                 borderRadius: "15px", padding: "3%",
