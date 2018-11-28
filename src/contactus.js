@@ -62,9 +62,9 @@ export default class ContactUs extends Component {
             <form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
                 borderRadius: "15px", padding: "3%",
-                marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+                marginLeft: "0", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                     }}>
-                    <p className="para" style={{
+                    <p style={{
                         color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
                         marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                     }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
@@ -82,9 +82,9 @@ export default class ContactUs extends Component {
             <input type="reset" className="button-toggle" value="Clear" onClick={this.ResetForm.bind(this)} />
                 </form></div>);
 
-        const thanks = (<div><p className="para" style={{
+        const thanks = (<div><p style={{
             color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
-            marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+            marginLeft: "0", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
         }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
             <h3 style={{ backgroundColor: "white" }}>Thank you for submitting your request. A member of our staff will contact you.</h3>
         </div>);
