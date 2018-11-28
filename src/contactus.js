@@ -65,7 +65,7 @@ export default class ContactUs extends Component {
                 marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                     }}>
                     <p className="para" style={{
-                        color: "white", fontWeight: "bold", borderRadius: "15px", padding: "3%",
+                        color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
                         marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                     }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
             Name:<br />
@@ -83,7 +83,7 @@ export default class ContactUs extends Component {
                 </form></div>);
 
         const thanks = (<div><p className="para" style={{
-            color: "white", fontWeight: "bold", borderRadius: "15px", padding: "3%",
+            color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
             marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
         }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
             <h3 style={{ backgroundColor: "white" }}>Thank you for submitting your request. A member of our staff will contact you.</h3>
