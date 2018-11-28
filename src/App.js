@@ -45,6 +45,7 @@ export default class App extends Component {
                                 <div className="site-info">
                                     <div id="navigation2">
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
+                                        <Link className="navbar-brand" to="/contact"><table><tr><th>Cowboy Care LLC<br/>1560 Johnston Street<br/>Wheatland, WY 82201<br/><br/>307-269-0655</th></tr></table></Link>
                                     </div>
                                 </div>
                                 <NewHead />
