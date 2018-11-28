@@ -46,8 +46,8 @@ export default class App extends Component {
                                     <div id="navigation2">
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
                                     </div>
-                                    <div>
-                                        <Link className="navbar-brand" to="/contact" style={{ right: "10px" }}><p style={{ backgroundColor: "white" }}>Cowboy Care LLC<br />1560 Johnston Street<br />Wheatland, WY 82201<br /><br />307-269-0655</p></Link>
+                                    <div id="navigation3">
+                                        <Link className="navbar-brand" to="/contact"><p style={{ backgroundColor: "white" }}>Cowboy Care LLC<br />1560 Johnston Street<br />Wheatland, WY 82201<br /><br />307-269-0655</p></Link>
                                     </div>
                                 </div>
                                 <NewHead />
