@@ -129,14 +129,14 @@
     float: left;
     background-color: transparent;
     color: black;
-    position: relative;
+    position: absolute;
     width: 50%!important;
     height: auto;
     top: 0;
     font-size: 0.85em;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
-    padding-left: 15%;
+    padding-left: 14%;
     z-index: 9999;
     right: 0px;
     /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
