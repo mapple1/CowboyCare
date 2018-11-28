@@ -44,17 +44,17 @@ export default class Home extends Component {
                         <li><b>Round-the-clock care:</b> We can provide care 24 hours a day 7 days a week, including holidays
                             and weekends.</li>
                         <li><b>Flexible scheduling and low minimums:</b> Most agencies require large amounts of time be
-                            scheduled. Cowboy Care has a two-hour minimum visit time so that you aren’t stuck paying for
+                            scheduled. Cowboy Care has a two-hour minimum visit time so that you aren&#8217;t stuck paying for
                             more than what you really need and want.</li>
-                        <li><b>We’re local:</b> Cowboy Care is locally owned and operated. We are not part of a chain or
+                        <li><b>We&#8217;re local:</b> Cowboy Care is locally owned and operated. We are not part of a chain or
                             a franchise.</li>
                         <li><b>We listen to you:</b> We listen to you with an open heart and mind then make recommendations
                             based on feedback from you and your family.</li>
-                        <li><b>We’re here for you:</b> We want to serve you and your family. We share your cares and concerns
+                        <li><b>We&#8217;re here for you:</b> We want to serve you and your family. We share your cares and concerns
                             and we will make every effort to meet your needs while working within your schedule and budget.</li>
                     </ul><br/>
                     <b>The differences between home health services and private duty services:</b><br />
-                    <table style={{ width: "100%" }}>
+                    <table style={{ width: "100%", textAlign: "left", border: "1px", borderColor: "black" }}>
                         <tr>
                             <th>Cowboy Care Home Care at a glance</th>
                             <th>Home Health-Skilled Care</th>
@@ -86,7 +86,7 @@ export default class Home extends Component {
                             <td>Yes</td>
                         </tr>
                         <tr>
-                            <td>Must have Doctor’s orders for care</td>
+                            <td>Must have Doctor&#8217;s orders for care</td>
                             <td>Yes</td>
                             <td>No</td>
                         </tr>
@@ -97,7 +97,7 @@ export default class Home extends Component {
                         </tr>
                         <tr>
                             <td>Personal care services and assistance with activities of daily living not
-                                related to medical treatment of client’s illness or injury</td>
+                                related to medical treatment of client&#8217;s illness or injury</td>
                             <td>NO</td>
                             <td>YES</td>
                         </tr>
