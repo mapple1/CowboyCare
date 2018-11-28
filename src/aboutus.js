@@ -8,7 +8,7 @@ export default class About extends Component {
 
         return (
             <div className="container">
-                <div>
+                <div className="about">
                     <p className="para" style={{
                     borderRadius: "0px 0px 15px 15px",
                     alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
@@ -31,8 +31,6 @@ export default class About extends Component {
                     County, Wyoming with a deep concern for our
                     community as well as the surrounding areas.
                     </p>
-                 </div>
-                 <div>
                     <p className="para" style={{
                         borderRadius: "0px 0px 15px 15px",
                         alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
