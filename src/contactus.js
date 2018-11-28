@@ -57,7 +57,9 @@ export default class ContactUs extends Component {
 
     render() {
 
-        const form = (<form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
+        const form = (
+            <div><p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC<br/> 1560 Johnston Street <br/>Wheatland, WY 82201<br/> 307-269-0655</p>
+            <form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
                 borderRadius: "15px", padding: "3%",
                 marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
@@ -74,7 +76,7 @@ export default class ContactUs extends Component {
             <Textarea id="message" required name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
             <input type="submit" className="button-toggle" disabled={!this.validateForm()} value="Send" onClick={this.onClick.bind(this)} />
             <input type="reset" className="button-toggle" value="Clear" onClick={this.ResetForm.bind(this)} />
-        </form>);
+                </form></div>);
 
         const thanks = (<h3 style={{backgroundColor: "white"}}>Thank you for submitting your request. A member of our staff will contact you.</h3>)
 
