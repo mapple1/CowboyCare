@@ -23,19 +23,19 @@ export default class Freq extends Component {
                     <ul style={{
                         textAlign: "left"
                     }}>
-                        <li><b>We require our aides to be certified:</b> Each one of our compassionate and professional
+                        <li><b>Do you require your aides to be certified?</b> Each one of our compassionate and professional
                             caregivers is a licensed CNA or is in the process of certification, which stands for certified
                             nursing assistant. This means each aide received state-approved training and is now or will
                             be licensed. He or she is dedicated to providing the highest quality of care and sought the
                             education to ensure just that.</li>
-                        <li><b>Round-the-clock care:</b> We can provide care 24 hours a day 7 days a week, including holidays
+                        <li><b>Do you provide round-the-clock care?</b> We can provide care 24 hours a day 7 days a week, including holidays
                             and weekends.</li>
-                        <li><b>Flexible scheduling and low minimums:</b> Most agencies require large amounts of time be
+                        <li><b>What about Flexible scheduling and low minimums?</b> Most agencies require large amounts of time be
                             scheduled. Cowboy Care has a two-hour minimum visit time so that you aren&#8217;t stuck paying for
                             more than what you really need and want.</li>
-                        <li><b>We&#8217;re local:</b> Cowboy Care is locally owned and operated. We are not part of a chain or
+                        <li><b>Are you local to Platte County?</b> Cowboy Care is locally owned and operated. We are not part of a chain or
                             a franchise.</li>
-                        <li><b>We listen to you:</b> We listen to you with an open heart and mind then make recommendations
+                        <li><b>Are you open to feedback or concerns?</b> We listen to you with an open heart and mind then make recommendations
                             based on feedback from you and your family.</li>
                         <li><b>We&#8217;re here for you:</b> We want to serve you and your family. We share your cares and concerns
                             and we will make every effort to meet your needs while working within your schedule and budget.</li>
