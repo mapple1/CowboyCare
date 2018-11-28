@@ -2595,7 +2595,7 @@
     }
 
     #address {
-        display: block;
+        display: block!important;
     }
 
     .corner-left,
