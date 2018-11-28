@@ -22,6 +22,11 @@ export default class App extends Component {
         this.setState({ value: event.target.value });
     }
 
+    
+//                                    <div id="navigation3">
+//    <Link className="navbar-brand" to="/contact"><p style={{ backgroundColor: "white", textDecoration: "none", color: "#0066cc", textAlign: "center", borderRadius: "10px", border: "1px solid black", fontSize: "14px" }}>Cowboy Care LLC<br />1560 Johnston Street<br />Wheatland, WY 82201<br />307-269-0655</p></Link>
+//</div>
+
     //<div className="header"></div><Footer />
 
     
@@ -45,9 +50,6 @@ export default class App extends Component {
                                 <div className="site-info">
                                     <div id="navigation2">
                                         <Link className="navbar-brand" to="/"><img className="Logo" src="logo.png" /></Link>
-                                    </div>
-                                    <div id="navigation3">
-                                        <Link className="navbar-brand" to="/contact"><p style={{ backgroundColor: "white", textDecoration: "none", color: "#0066cc", textAlign: "center", borderRadius: "10px", border: "1px solid black", fontSize: "14px" }}>Cowboy Care LLC<br />1560 Johnston Street<br />Wheatland, WY 82201<br />307-269-0655</p></Link>
                                     </div>
                                 </div>
                                 <NewHead />
