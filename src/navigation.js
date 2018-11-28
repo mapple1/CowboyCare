@@ -8,16 +8,17 @@ class Navigation extends React.Component {
         super(props);
 
         this.state = {
-            toggle: false
+            toggle: false,
+            show: 'none'
         };
     }
 
     onHover() {
-        this.setState({ toggle: true });
+        this.setState({ toggle: true, show: 'block' });
     }
 
     onLeave() {
-        this.setState({ toggle: false });
+        this.setState({ toggle: false, show: 'none' });
     }
 
                                 //<div className="dropdown-divider"></div>
@@ -56,9 +57,9 @@ class Navigation extends React.Component {
                                 <Link id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} to="/">Our Care Specialists</Link>
                             </div>
                         </li>
-                        <li id="basic-nav-dropdown" className="nav-item active">
+                        <li id="basic-nav-dropdown" className="nav-item active" onMouseEnter={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} >
                             <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link>
-                            <p id="address" style={{display: "none"}}>Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655</p>
+                            <p id="address" style={{display: this.state.show}}>Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655</p>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>

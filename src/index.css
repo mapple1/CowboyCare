@@ -300,7 +300,7 @@
     }
 
 #contact:hover #address{
-    display:inline-block;
+    display:block;
 }
 
 .Body {
