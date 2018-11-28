@@ -57,7 +57,8 @@ class Navigation extends React.Component {
                             </div>
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active">
-                            <Link className="nav-link" style={{ color: "white", fontWeight: "bold"  }} to="/contact">Contact Us</Link>
+                            <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link>
+                            <p id="address" style={{display: "none"}}>Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655</p>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>

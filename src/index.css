@@ -299,6 +299,10 @@
         width: 100%;
     }
 
+#contact:hover #address{
+    display:inline-block;
+}
+
 .Body {
     height: 100%;
     width: 70%;
