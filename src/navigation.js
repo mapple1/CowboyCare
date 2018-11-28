@@ -59,7 +59,7 @@ class Navigation extends React.Component {
                         </li>
                         <li id="basic-nav-dropdown" className="nav-item active" onMouseEnter={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} >
                             <div><Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link></div>
-                            <div><p id="address" style={{display: this.state.show}}>Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655</p></div>
+                            <div><p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show}}>Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655</p></div>
                         </li><span className="corner-left" />
                 <span className="corner-right" />
                     </ul>
