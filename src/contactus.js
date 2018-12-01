@@ -62,7 +62,7 @@ export default class ContactUs extends Component {
             <form onKeyUp={this.keyPress.bind(this)} class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbzKFmQj6wcYnNpRU-ehrnoA7ZLGrm5bJX65AhPLXnjPdw7vauzs/exec" method="post" enctype="text/plain"
             style={{
                 borderRadius: "15px", padding: "3%",
-                marginLeft: "0", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+                marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
                     }}>
                     <p style={{
                         color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
