@@ -12,7 +12,7 @@ export default class Services extends Component {
                 <p className="para" style={{
                     borderRadius: "0px 0px 15px 15px",
                     alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
-                    marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "80%"
+                    marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%"
                 }}>
                     <h3 style={{
                         color: "#0066cc", fontFamily: "Georgia, serif"
