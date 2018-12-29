@@ -28,6 +28,9 @@ export default class Home extends Component {
                     extraordinary service and compassionate care, while being recognized for building lasting 
                     client/care giver relationships. <br />
                     <b>Our Vision:</b><br />
+                    We strive to be one of the leading providers of a wide range of quality home care services; 
+                    recognized for enduring dedication to provide innovative, professional, and compassionate care
+                    to the communities we serve.
                 </p>
             </div>
             );

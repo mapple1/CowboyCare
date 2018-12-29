@@ -9,7 +9,7 @@ export default class Freq extends Component {
 
         return (
             <div className="container">
-                <img className="horse" src="horse.jpg" />
+                <img className="horse" src="horse2.jpg" />
                 <p className="para" style={{
                     borderRadius: "0px 0px 15px 15px",
                     alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",

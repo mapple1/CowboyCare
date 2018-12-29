@@ -82,11 +82,16 @@ export default class ContactUs extends Component {
             <input type="reset" className="button-toggle" value="Clear" onClick={this.ResetForm.bind(this)} />
                 </form></div>);
 
-        const thanks = (<div><p style={{
-            color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
-            marginLeft: "0", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
+        const thanks = (<div><p className="para" style={{
+            borderRadius: "0px 0px 15px 15px",
+            alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
+            marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%"
         }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
-            <h3 style={{ backgroundColor: "white" }}>Thank you for submitting your request. A member of our staff will contact you.</h3>
+            <h3 className="para" style={{
+                borderRadius: "0px 0px 15px 15px",
+                alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
+                marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%"
+            }}>Thank you for submitting your request. A member of our staff will contact you.</h3>
         </div>);
 
         return (
