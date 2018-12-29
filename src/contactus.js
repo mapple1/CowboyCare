@@ -83,7 +83,7 @@ export default class ContactUs extends Component {
                 </form></div>);
 
         const thanks = (<div><p className="para" style={{
-            borderRadius: "0px 0px 15px 15px",
+            borderRadius: "0px 0px 15px 15px", fontWeight: "bold",
             alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
             marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%"
         }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655
