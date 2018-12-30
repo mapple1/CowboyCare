@@ -67,7 +67,7 @@ export default class ContactUs extends Component {
                     <p style={{
                         color: "black", fontWeight: "bold", borderRadius: "15px", padding: "3%",
                         marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif"
-                    }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
+                    }}>Cowboy Care LLC<br /> 709 9th Street <br />Wheatland, WY 82201<br /> 307-269-0655</p>
             Name:<br />
             <input id="name" value={this.state.name} onChange={this.handleName.bind(this)} required type="text" name="name" onKeyPress={e => {
                 if (e.key === 'Enter') e.preventDefault();
@@ -86,7 +86,7 @@ export default class ContactUs extends Component {
             borderRadius: "0px 0px 15px 15px", fontWeight: "bold",
             alignContent: "center", textAlign: "center", padding: "36px 18px 36px 18px",
             marginLeft: "13%", marginRight: "5%", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%"
-        }}>Cowboy Care LLC<br /> 1560 Johnston Street <br />Wheatland, WY 82201<br /> 307-269-0655
+        }}>Cowboy Care LLC<br /> 709 9th Street <br />Wheatland, WY 82201<br /> 307-269-0655
             <h3>Thank you for submitting your request. A member of our staff will contact you.</h3></p>
         </div>);
 
