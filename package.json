@@ -25,7 +25,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://cowboy-care.com/",
+  "homepage": "https://cowboy-care.com/",
   "browserslist": [
     ">0.2%",
     "not dead",

@@ -18,14 +18,14 @@ export default class rout extends Component {
         const about = () => <Aboutus />
         const freq = () => <Freq />
         const NotFound = () => <div className="container"><h1 className="notfound" style={{ marginTop: "10%" }}> You just got 404'd! </h1></div>;
-        //<NewHead />
+        //<NewHead /><Route exact path='/aboutus' component={about} />
         return (
             <div>
                 <Switch>
                     <Route exact path='/' component={home} />
                     <Route exact path='/services' component={services} />
                     <Route exact path='/contact' component={contact} />
-                    <Route exact path='/aboutus' component={about} />
+                    
                     <Route exact path='/frequentquestions' component={freq} />
                     <Route exact path='*' component={NotFound} />
                 </Switch>
