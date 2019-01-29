@@ -29,6 +29,12 @@ class Navigation extends React.Component {
     //                    <li style={{ color: "white", fontWeight: "bold" }}>
     //Cowboy Care LLC 1560 Johnston Street Wheatland, WY 82201 307-269-0655
     //                    </li>
+
+//                            <li id="basic-nav-dropdown" className="nav-item active" onMouseEnter={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} >
+//    <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link>
+//</li>
+//    <div style={{ verticalAlign: "middle" }}><p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC 709 9th Street Wheatland, WY 82201 307-269-0655</p></div>
+
     render() {
         return (
             <nav id="navigation" className="navbar navbar-expand-xl navbar-light bg-light">
@@ -66,10 +72,6 @@ class Navigation extends React.Component {
                                 <Link id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} to="/contact">Email Us</Link>
                             </div>
                         </li>
-                        <li id="basic-nav-dropdown" className="nav-item active" onMouseEnter={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} >
-                            <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link>
-                        </li>
-                        <div style={{ verticalAlign: "middle" }}><p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC 709 9th Street Wheatland, WY 82201 307-269-0655</p></div>
                         <span className="corner-left" />
                 <span className="corner-right" />
                     </ul>
