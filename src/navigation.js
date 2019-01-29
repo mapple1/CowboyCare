@@ -62,7 +62,7 @@ class Navigation extends React.Component {
                                 Contact Us
                             </div>
                             <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
-                                <div style={{ verticalAlign: "middle" }}><p id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC 709 9th Street Wheatland, WY 82201 307-269-0655</p></div>
+                                <div style={{ verticalAlign: "middle" }}><p id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }}>Cowboy Care LLC 709 9th Street Wheatland, WY 82201 307-269-0655</p></div>
                                 <Link id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} to="/contact">Email Us</Link>
                             </div>
                         </li>
