@@ -2447,6 +2447,17 @@
         justify-content: center;
         align-self: center;
     }
+    .para {
+        padding: 0px 0px 0px 0px !important;
+        margin-left: 5% !important;
+        margin-right: 5%;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(#48d1cc));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), #48d1cc);
+    }
 }
 
     @media only screen and (max-width: 1199px) {
