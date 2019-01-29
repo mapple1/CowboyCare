@@ -2452,7 +2452,7 @@
     @media only screen and (max-width: 1199px) {
         .horse {
             height: auto;
-            width: 80%;
+            width: 100%;
             border-radius: 15px 15px 0px 0px;
             margin-left: 5%;
             margin-right: 5%;
