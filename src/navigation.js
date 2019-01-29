@@ -57,6 +57,15 @@ class Navigation extends React.Component {
                                 <Link id="menuItem" className="dropdown-item" style={{ color: "white", fontWeight: "bold" }} to="/">Our Care Specialists</Link>
                             </div>
                         </li>
+                        <li className="nav-item dropdown active" id="basic-nav-dropdown">
+                            <div className="nav-link dropdown-toggle" style={{ color: "white", fontWeight: "bold" }} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact Us
+                            </div>
+                            <div className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
+                                <p id="address" style={{ color: "white", fontWeight: "bold", display: this.state.show }}>Cowboy Care LLC 709 9th Street Wheatland, WY 82201 307-269-0655</p>
+                                <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Email Us</Link>
+                            </div>
+                        </li>
                         <li id="basic-nav-dropdown" className="nav-item active" onMouseEnter={this.onHover.bind(this)} onMouseLeave={this.onLeave.bind(this)} >
                             <Link id="contact" className="nav-link" style={{ color: "white", fontWeight: "bold" }} to="/contact">Contact Us</Link>
                         </li>
