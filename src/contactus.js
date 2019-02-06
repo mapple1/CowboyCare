@@ -11,7 +11,8 @@ export default class ContactUs extends Component {
             showThankYou: false,
             Message: "",
             name: "",
-            email: ""
+            email: "",
+            phone:""
         };
     }
 
@@ -52,7 +53,7 @@ export default class ContactUs extends Component {
     }
 
     ResetForm() {
-        this.setState({ Message: "" });
+        this.setState({ Message: "", name: "", email: "", phone: "" });
     }
 
     render() {
@@ -74,7 +75,11 @@ export default class ContactUs extends Component {
             }} /><br />
             E-mail:<br />
             <input id="email" value={this.state.email} onChange={this.handleEmail.bind(this)} required type="text" name="email" onKeyPress={e => {
-                if (e.key === 'Enter') e.preventDefault();
+            if (e.key === 'Enter') e.preventDefault();
+            }} /><br />
+            Phone:<br />
+            <input id="phone" value={this.state.phone} onChange={this.handleName.bind(this)} required type="number" name="phone" onKeyPress={e => {
+            if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
             <Textarea id="message" required name="message" value={this.state.Message} className="text" onChange={this.handleChange.bind(this)} onKeyUp={this.keyPress.bind(this)} /><br /><br />
