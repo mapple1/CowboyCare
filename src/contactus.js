@@ -26,7 +26,7 @@ export default class ContactUs extends Component {
     }
 
     validateForm() {
-        return this.state.name.length > 0 && this.state.email.length > 0 && this.state.phone.length < 10;
+        return this.state.name.length > 0 && this.state.email.length > 0 && this.state.phone.length <= 10;
     }
 
     handleChange = event => {
