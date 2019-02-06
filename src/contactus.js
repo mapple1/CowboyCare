@@ -82,7 +82,7 @@ export default class ContactUs extends Component {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Phone:<br />
-            <input id="phone" value={this.state.phone} pattern="[1-9]{1}[0-9]{9}" onChange={this.handlePhone.bind(this)} type="number" name="phone" onKeyPress={e => {
+            <input id="phone" value={this.state.phone} maxLength="10" onChange={this.handlePhone.bind(this)} type="number" name="phone" onKeyPress={e => {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
