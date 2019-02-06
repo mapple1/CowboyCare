@@ -26,7 +26,7 @@ export default class ContactUs extends Component {
     }
 
     validateForm() {
-        return this.state.name.length > 0 && this.state.email.length > 0;
+        return this.state.name.length > 0 && this.state.email.length > 0 && this.state.phone.length < 10;
     }
 
     handleChange = event => {
@@ -82,7 +82,7 @@ export default class ContactUs extends Component {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Phone:<br />
-            <input id="phone" value={this.state.phone} max="10" onChange={this.handlePhone.bind(this)} type="number" name="phone" onKeyPress={e => {
+            <input id="phone" value={this.state.phone} onChange={this.handlePhone.bind(this)} type="number" name="phone" onKeyPress={e => {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
