@@ -37,6 +37,10 @@ export default class ContactUs extends Component {
         event.preventDefault();
         this.setState({ name: event.target.value, [event.target.id]: event.target.value });
     }
+    handlePhone = event => {
+        event.preventDefault();
+        this.setState({ phone: event.target.value, [event.target.id]: event.target.value });
+    }
     handleEmail = event => {
         event.preventDefault();
         this.setState({ email: event.target.value, [event.target.id]: event.target.value });
@@ -78,7 +82,7 @@ export default class ContactUs extends Component {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Phone:<br />
-            <input id="phone" value={this.state.phone} onChange={this.handleName.bind(this)} required type="number" name="phone" onKeyPress={e => {
+            <input id="phone" value={this.state.phone} onChange={this.handlePhone.bind(this)} type="number" name="phone" onKeyPress={e => {
             if (e.key === 'Enter') e.preventDefault();
             }} /><br />
             Questions:<br />
